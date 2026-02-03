@@ -18,4 +18,10 @@ public class Counter : MonoBehaviour
         count++;
         counterText.text = count.ToString();
     }
+
+    public void DecreaseCounter()
+    {
+        count--;
+        counterText.text = count.ToString();
+    }
 }

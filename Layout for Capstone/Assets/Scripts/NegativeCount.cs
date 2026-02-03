@@ -1,11 +1,11 @@
-
 using UnityEngine;
 using TouchScript.Gestures;
 
-public class TouchToCount : MonoBehaviour
+public class NegativeCount : MonoBehaviour
 {
     public Counter counter;
     private PressGesture pressGesture;
+
     void Awake()
     {
        pressGesture = GetComponent<PressGesture>();
@@ -22,6 +22,7 @@ public class TouchToCount : MonoBehaviour
 
     private void PressedHandler(object sender, System.EventArgs e)
     {
-        counter.IncreaseCounter();
+        //Debug.Log("Negative Cube Tapped!");
+        counter.DecreaseCounter();
     }
 }
