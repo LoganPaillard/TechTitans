@@ -9,7 +9,6 @@ public class Timer : MonoBehaviour
     public float initialTime = 10; // The initial time for the scene, set to 10 seconds
     public float timeRemaining; // A float to track the remaining time in the scene
     public bool timerIsRunning = false; // A boolean to track whether the timer is running
-    public TextMeshProUGUI timerText; // Reference to the TextMeshProUGUI component to display the timer
     public Image timerCircleImage; // Reference to the Image component for the timer circle
 
     void Start()
@@ -30,8 +29,7 @@ public class Timer : MonoBehaviour
             if (timeRemaining > 0)
             {
                 timeRemaining -= Time.deltaTime;
-                // Update the timer display with the remaining time
-                DisplayTime(timeRemaining);
+
                 // Update the circle fill amount
                 timerCircleImage.fillAmount = timeRemaining / initialTime;
             }
@@ -47,15 +45,5 @@ public class Timer : MonoBehaviour
                 SceneManager.LoadScene("MainMenu");
             }
         }
-    }
-
-    void DisplayTime(float timeToDisplay)
-    {
-        // Update the timer text to show the remaining time in seconds, rounded down to the nearest whole number
-        int seconds = Mathf.CeilToInt(timeToDisplay);
-
-        // Update the timer text with the remaining seconds
-        timerText.text = seconds.ToString();
-        //Debug.Log(seconds.ToString());
     }
 }
