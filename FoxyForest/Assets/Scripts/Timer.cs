@@ -42,7 +42,7 @@ public class Timer : MonoBehaviour
                 timerIsRunning = false;
 
                 // Return to the main menu after time has run out, will later change to the next season/level
-                SceneManager.LoadScene("MainMenu");
+                LevelManager.Instance.LoadScene(SceneID.MainMenu, TransitionID.CrossFade);
             }
         }
     }
