@@ -9,7 +9,7 @@
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
-/UserSettings
+UserSettings/
 Library/
 Temp/
 Builds/
