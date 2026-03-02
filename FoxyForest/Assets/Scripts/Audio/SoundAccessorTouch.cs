@@ -1,5 +1,6 @@
 using UnityEngine;
 using TouchScript.Gestures;
+using UnityEngine.UI;
 
 public class SoundAccessorTouch : MonoBehaviour
 {
@@ -8,8 +9,6 @@ public class SoundAccessorTouch : MonoBehaviour
     
     [SerializeField]
     private SoundID clickSound;
-    
-    public GameObject allower;
 
     private PressGesture pressGesture;
 
@@ -30,8 +29,14 @@ public class SoundAccessorTouch : MonoBehaviour
 
     private void PressedHandler(object sender, System.EventArgs e)
     {
-        if (allower != null && allower.activeSelf)
+        SpriteRenderer sprite = GetComponent<SpriteRenderer>();
+        
+        if (sprite != null)
         {
+            if (!sprite.enabled) return;
+            SoundManager.Instance.PlaySound2D(hoverSound);
+        }
+        else {
             SoundManager.Instance.PlaySound2D(clickSound);
         }
     }

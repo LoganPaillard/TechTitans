@@ -5,9 +5,11 @@ using UnityEngine.UI;
 public class MainMenu : MonoBehaviour
 {
     public AudioMixer audioMixer;
-    public Slider masterSlider;
-    public Slider musicSlider;
-    public Slider sfxSlider;
+    public Toggle masterToggle;
+    public Toggle musicToggle;
+    public Toggle sfxToggle;
+
+    private bool isPlaying = false;
 
     private void Start()
     {
@@ -17,10 +19,13 @@ public class MainMenu : MonoBehaviour
 
     public void Play()
     {
+        if (isPlaying) return;
+        isPlaying = true;
         LevelManager.Instance.LoadScene(SceneID.Game, TransitionID.CrossFade);
     }
 
     public void Menu() {
+        isPlaying = false;
         LevelManager.Instance.LoadScene(SceneID.MainMenu, TransitionID.CircleWipe);
     }
 
@@ -29,41 +34,37 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
-    public void UpdateMasterVolume(float volume)
+    public void setMasterVolume()
     {
-        audioMixer.SetFloat("MasterVolume", Linearize(volume));
+        audioMixer.SetFloat("MasterVolume", masterToggle.isOn ? 0 : -80);
+        PlayerPrefs.SetInt("MasterVolume", masterToggle.isOn ? 1 : 0);
     }
 
-    public void UpdateMusicVolume(float volume)
+    public void setMusicVolume()
     {
-        audioMixer.SetFloat("MusicVolume", Linearize(volume));
+        audioMixer.SetFloat("MusicVolume", musicToggle.isOn ? 0 : -80);
+        PlayerPrefs.SetInt("MusicVolume", musicToggle.isOn ? 1 : 0);
     }
 
-    public void UpdateSoundVolume(float volume)
+    public void setSFXVolume()
     {
-        audioMixer.SetFloat("SFXVolume", Linearize(volume));
+        audioMixer.SetFloat("SFXVolume", sfxToggle.isOn ? 0 : -80);
+        PlayerPrefs.SetInt("SFXVolume", sfxToggle.isOn ? 1 : 0);
     }
 
-    public void SaveVolume()
+    private void LoadVolume()
     {
-        PlayerPrefs.SetFloat("MasterVolume", masterSlider.value);
-        PlayerPrefs.SetFloat("MusicVolume", musicSlider.value);
-        PlayerPrefs.SetFloat("SFXVolume", sfxSlider.value);
+        masterToggle.isOn = PlayerPrefs.GetInt("MasterVolume", 1) == 1;
+        musicToggle.isOn = PlayerPrefs.GetInt("MusicVolume", 1) == 1;
+        sfxToggle.isOn = PlayerPrefs.GetInt("SFXVolume", 1) == 1;
+
+        setMasterVolume();
+        setMusicVolume();
+        setSFXVolume();
     }
 
-    public void LoadVolume()
+    public void togglePause()
     {
-        masterSlider.SetValueWithoutNotify(PlayerPrefs.GetFloat("MasterVolume", 1f));
-        musicSlider.SetValueWithoutNotify(PlayerPrefs.GetFloat("MusicVolume", 1f));
-        sfxSlider.SetValueWithoutNotify(PlayerPrefs.GetFloat("SFXVolume", 1f));
-
-        UpdateMasterVolume(masterSlider.value);
-        UpdateMusicVolume(musicSlider.value);
-        UpdateSoundVolume(sfxSlider.value);
-    }
-
-    private float Linearize(float volume) {
-        volume = Mathf.Clamp(volume, 0.0001f, 1f);
-        return Mathf.Log10(volume) * 20f;
+        GameManager.Instance.togglePause();
     }
 }

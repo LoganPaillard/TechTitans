@@ -97,4 +97,18 @@ public class GameManager : MonoBehaviour
             Debug.Log("ScoreText reference is null. Cannot update score display.");
         }
     }
+
+    public void togglePause()
+    {
+        if (isGameRunning)
+        {
+            isGameRunning = false;
+            Time.timeScale = 0f;
+        }
+        else
+        {
+            isGameRunning = true;
+            Time.timeScale = 1f;
+        }
+    }
 }
