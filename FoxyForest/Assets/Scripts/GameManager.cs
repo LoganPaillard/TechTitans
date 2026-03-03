@@ -10,11 +10,12 @@ public class GameManager : MonoBehaviour
     [Header("Game State")]
     public bool isGameRunning = false;
     public TextMeshProUGUI scoreText;
-    public int score;
+    public int score = 0;
+    public bool sceneChanging = false;
 
     [Header("Timer")]
-    public float initialTime = 60f; // Total game time in seconds
-    private float timeRemaining;
+    public float endTime;
+    public float timeLimit = 5f;
     public Image timerCircleImage;    
 
     void Awake()
@@ -28,7 +29,6 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        
     }
 
     void OnEnable() => SceneManager.sceneLoaded += OnLevelLoaded;
@@ -36,9 +36,28 @@ public class GameManager : MonoBehaviour
 
     void OnLevelLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (scene.name != "MainMenu")
+        sceneChanging = false;
+
+        switch (scene.name)
         {
-            StartGame();
+            case "MainMenu":
+            {
+                isGameRunning = false;
+                Debug.Log("Main Menu Loaded.");
+                break;
+            }
+
+            case "Spring":
+            case "Summer":
+            case "Autumn":
+            case "Winter":
+            {
+                StartGame(scene);
+                break;
+            }
+
+            default:
+                break;
         }
     }
 
@@ -47,23 +66,22 @@ public class GameManager : MonoBehaviour
     {
         if (!isGameRunning || timerCircleImage == null) return;
 
-        if (timeRemaining > 0)
+        if (Time.time < endTime)
         {
-            timeRemaining -= Time.deltaTime;
-            timerCircleImage.fillAmount = timeRemaining / initialTime;
+            timerCircleImage.fillAmount = (endTime - Time.time) / timeLimit;
         }
         else
         {
-            EndGame();
+            nextLevel();
         }
     }
 
-    public void StartGame()
+    public void StartGame(Scene scene)
     {
         isGameRunning = true;
-        timeRemaining = initialTime;
-        score = 0;
-        Debug.Log("Game Started!");
+        endTime = Time.time + timeLimit;
+        UpdateScore();
+        Debug.Log(scene.name + " Loaded.");
     }
 
     public void EndGame()
@@ -71,6 +89,28 @@ public class GameManager : MonoBehaviour
         isGameRunning = false;
         Debug.Log("Game Over! Final Score: " + score);
         LevelManager.Instance.LoadScene(SceneID.MainMenu, TransitionID.CrossFade);
+    }
+
+    public void nextLevel()
+    {
+        if (sceneChanging) return;
+        sceneChanging = true;
+        
+        SceneID nextScene = SceneID.Spring;
+
+        if (SceneManager.GetActiveScene().name == "Spring")
+            nextScene = SceneID.Summer;
+        else if (SceneManager.GetActiveScene().name == "Summer")
+            nextScene = SceneID.Autumn;
+        else if (SceneManager.GetActiveScene().name == "Autumn")
+            nextScene = SceneID.Winter;
+        else if (SceneManager.GetActiveScene().name == "Winter")
+        {
+            EndGame();
+            return;
+        }
+
+        LevelManager.Instance.LoadScene(nextScene, TransitionID.SeasonWipe);
     }
 
     public void AddScore(int value)

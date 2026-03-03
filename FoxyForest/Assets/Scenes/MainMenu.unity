@@ -133,8 +133,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3494526013400818724, guid: a910923209a2dfa4bb1f8669bd411d04, type: 3}
       propertyPath: layers.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3494526013400818724, guid: a910923209a2dfa4bb1f8669bd411d04, type: 3}
+      propertyPath: 'layers.Array.data[0]'
+      value: 
+      objectReference: {fileID: 519420033}
     - target: {fileID: 3494526013400818724, guid: a910923209a2dfa4bb1f8669bd411d04, type: 3}
       propertyPath: OnPointersPress.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -620,6 +624,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &685931238 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7909796013281941350, guid: b1f4ae4c077843544a6e4ed63a842470, type: 3}
+  m_PrefabInstance: {fileID: 7711305509456985584}
+  m_PrefabAsset: {fileID: 0}
+--- !u!225 &685931241
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685931238}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
+--- !u!114 &687033041 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3079137119046742396, guid: b1f4ae4c077843544a6e4ed63a842470, type: 3}
+  m_PrefabInstance: {fileID: 7711305509456985584}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!224 &797793036 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3306161315914495467, guid: 5cb66c2f631a48d4a874384e2f1f2120, type: 3}
@@ -996,7 +1028,9 @@ MonoBehaviour:
   isGameRunning: 0
   scoreText: {fileID: 0}
   score: 0
-  initialTime: 60
+  sceneChanging: 0
+  endTime: 0
+  timeLimit: 5
   timerCircleImage: {fileID: 0}
 --- !u!4 &1560043920
 Transform:
@@ -1342,6 +1376,28 @@ MonoBehaviour:
   CancelButton: Cancel
   InputActionsPerSecond: 10
   RepeatDelay: 0.5
+--- !u!114 &1930121077 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7057926514783708337, guid: b1f4ae4c077843544a6e4ed63a842470, type: 3}
+  m_PrefabInstance: {fileID: 7711305509456985584}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!114 &1930854156 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 801864576024842350, guid: b1f4ae4c077843544a6e4ed63a842470, type: 3}
+  m_PrefabInstance: {fileID: 7711305509456985584}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1 &2098904433
 GameObject:
   m_ObjectHideFlags: 0
@@ -2131,10 +2187,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2694087731809580050, guid: b1f4ae4c077843544a6e4ed63a842470, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3026698434633950902, guid: b1f4ae4c077843544a6e4ed63a842470, type: 3}
       propertyPath: m_Name
       value: LevelManager
       objectReference: {fileID: 0}
+    - target: {fileID: 3271990499793048426, guid: b1f4ae4c077843544a6e4ed63a842470, type: 3}
+      propertyPath: crossFade
+      value: 
+      objectReference: {fileID: 685931241}
+    - target: {fileID: 3271990499793048426, guid: b1f4ae4c077843544a6e4ed63a842470, type: 3}
+      propertyPath: 'seasons.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1930121077}
+    - target: {fileID: 3271990499793048426, guid: b1f4ae4c077843544a6e4ed63a842470, type: 3}
+      propertyPath: 'seasons.Array.data[2]'
+      value: 
+      objectReference: {fileID: 687033041}
+    - target: {fileID: 3271990499793048426, guid: b1f4ae4c077843544a6e4ed63a842470, type: 3}
+      propertyPath: 'seasons.Array.data[3]'
+      value: 
+      objectReference: {fileID: 1930854156}
     - target: {fileID: 3718533276225261682, guid: b1f4ae4c077843544a6e4ed63a842470, type: 3}
       propertyPath: m_Color.b
       value: 0.10066734
@@ -2274,7 +2350,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7909796013281941350, guid: b1f4ae4c077843544a6e4ed63a842470, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 685931241}
   m_SourcePrefab: {fileID: 100100000, guid: b1f4ae4c077843544a6e4ed63a842470, type: 3}
 --- !u!1001 &9118331304932004189
 PrefabInstance:
