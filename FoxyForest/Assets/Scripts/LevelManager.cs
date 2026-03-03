@@ -6,12 +6,16 @@ using System.Linq;
 
 public enum SceneID {
     MainMenu,
-    Game
+    Spring,
+    Summer,
+    Autumn,
+    Winter
 }
 
 public enum TransitionID {
     CrossFade,
-    CircleWipe
+    CircleWipe,
+    SeasonWipe
 }
 
 public class LevelManager : MonoBehaviour

@@ -9,8 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: c5a3ae9f2c1695b43b7630d44519f214
   - enabled: 1
-    path: Assets/Scenes/Game.unity
+    path: Assets/Scenes/Spring.unity
     guid: dcde15948b175044ab4d9773e31a5808
+  - enabled: 1
+    path: Assets/Scenes/Summer.unity
+    guid: 47c4da9ebcfe3324b826c8466d0afed3
+  - enabled: 1
+    path: Assets/Scenes/Autumn.unity
+    guid: 8e9be0cc2a73f7244bcef32606431ae3
+  - enabled: 1
+    path: Assets/Scenes/Winter.unity
+    guid: 887c291ebd5a7a14e9a87ca6a0f2cae2
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

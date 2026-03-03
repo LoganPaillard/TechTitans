@@ -21,12 +21,12 @@ public class MainMenu : MonoBehaviour
     {
         if (isPlaying) return;
         isPlaying = true;
-        LevelManager.Instance.LoadScene(SceneID.Game, TransitionID.CrossFade);
+        LevelManager.Instance.LoadScene(SceneID.Spring, TransitionID.SeasonWipe);
     }
 
     public void Menu() {
         isPlaying = false;
-        LevelManager.Instance.LoadScene(SceneID.MainMenu, TransitionID.CircleWipe);
+        LevelManager.Instance.LoadScene(SceneID.MainMenu, TransitionID.CrossFade);
     }
 
     public void Quit()

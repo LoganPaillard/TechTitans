@@ -1,0 +1,1443 @@
+fileFormatVersion: 2
+guid: fa048e9599c2d3e4e8e099fd7fae4769
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2298308595801042380
+    second: scrixels_winter_0
+  - first:
+      213: 8855061314168703207
+    second: scrixels_winter_1
+  - first:
+      213: 940101708784728106
+    second: scrixels_winter_2
+  - first:
+      213: 2586239338577750401
+    second: scrixels_winter_3
+  - first:
+      213: 6681848913744445971
+    second: scrixels_winter_4
+  - first:
+      213: -3265273923486288917
+    second: scrixels_winter_5
+  - first:
+      213: 5315144163946014763
+    second: scrixels_winter_6
+  - first:
+      213: -2470875682139904690
+    second: scrixels_winter_7
+  - first:
+      213: 7055656993225446623
+    second: scrixels_winter_8
+  - first:
+      213: 1069602807038736707
+    second: scrixels_winter_9
+  - first:
+      213: -6579880971018649032
+    second: scrixels_winter_10
+  - first:
+      213: 2516762086124850174
+    second: scrixels_winter_11
+  - first:
+      213: -1182786394810539887
+    second: scrixels_winter_12
+  - first:
+      213: -7350618517345669940
+    second: scrixels_winter_13
+  - first:
+      213: -8558547874776352585
+    second: scrixels_winter_14
+  - first:
+      213: 3622205462033622793
+    second: scrixels_winter_15
+  - first:
+      213: -4482016011013555244
+    second: scrixels_winter_16
+  - first:
+      213: -3179409029891842917
+    second: scrixels_winter_17
+  - first:
+      213: 5326845499447961279
+    second: scrixels_winter_18
+  - first:
+      213: -6122104447375025257
+    second: scrixels_winter_19
+  - first:
+      213: -3470480060406440538
+    second: scrixels_winter_20
+  - first:
+      213: -5004895932727299591
+    second: scrixels_winter_21
+  - first:
+      213: 8039451118596878174
+    second: scrixels_winter_22
+  - first:
+      213: -8583260345425478031
+    second: scrixels_winter_23
+  - first:
+      213: 8793944094456173450
+    second: scrixels_winter_24
+  - first:
+      213: 8703772444392659203
+    second: scrixels_winter_25
+  - first:
+      213: -4676038333859955162
+    second: scrixels_winter_26
+  - first:
+      213: -6362343063268191832
+    second: scrixels_winter_27
+  - first:
+      213: 2916227202422955219
+    second: scrixels_winter_28
+  - first:
+      213: 6567575929822495401
+    second: scrixels_winter_29
+  - first:
+      213: -8380583090138690348
+    second: scrixels_winter_30
+  - first:
+      213: -6473494106653000826
+    second: scrixels_winter_31
+  - first:
+      213: -7046063888079934242
+    second: scrixels_winter_32
+  - first:
+      213: 633991817220989841
+    second: scrixels_winter_33
+  - first:
+      213: 2436882286071766796
+    second: scrixels_winter_34
+  - first:
+      213: 7447594362146729588
+    second: scrixels_winter_35
+  - first:
+      213: -6076795172051363815
+    second: scrixels_winter_36
+  - first:
+      213: 8326082041610420704
+    second: scrixels_winter_37
+  - first:
+      213: -4553119819877696665
+    second: scrixels_winter_38
+  - first:
+      213: 5129563954020106214
+    second: scrixels_winter_39
+  - first:
+      213: -7598875487696710578
+    second: scrixels_winter_40
+  - first:
+      213: 754433812946402813
+    second: scrixels_winter_41
+  - first:
+      213: -5105870943618129338
+    second: scrixels_winter_42
+  - first:
+      213: 1469086574831516025
+    second: scrixels_winter_43
+  - first:
+      213: 7461193323798863485
+    second: scrixels_winter_44
+  - first:
+      213: -3318850899666588749
+    second: scrixels_winter_45
+  - first:
+      213: 7043313673192247143
+    second: scrixels_winter_46
+  - first:
+      213: -9046801185700492896
+    second: scrixels_winter_47
+  - first:
+      213: 9060814572390634063
+    second: scrixels_winter_48
+  - first:
+      213: 8736088071397397538
+    second: scrixels_winter_49
+  - first:
+      213: -7745630259224697875
+    second: scrixels_winter_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: scrixels_winter_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1097
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4325d035284ca10e0800000000000000
+      internalID: -2298308595801042380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 950
+        width: 101
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8445f595f73ea70800000000000000
+      internalID: 8855061314168703207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_2
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 993
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28f9d4f589eb0d00800000000000000
+      internalID: 940101708784728106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_3
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 791
+        width: 202
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1896118d9fa24e320800000000000000
+      internalID: 2586239338577750401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_4
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 992
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31241926f22babc50800000000000000
+      internalID: 6681848913744445971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_5
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 892
+        width: 103
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3f040baaa6fa2d0800000000000000
+      internalID: -3265273923486288917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_6
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 950
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b282efdc47f23c940800000000000000
+      internalID: 5315144163946014763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_7
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 978
+        width: 101
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4566e988afa5bdd0800000000000000
+      internalID: -2470875682139904690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_8
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 906
+        width: 152
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4143227aabae160800000000000000
+      internalID: 7055656993225446623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_9
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 719
+        width: 201
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349fd44061ef7de00800000000000000
+      internalID: 1069602807038736707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_10
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 892
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 832c41a5e119fa4a0800000000000000
+      internalID: -6579880971018649032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_11
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 878
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb84af68c55de220800000000000000
+      internalID: 2516762086124850174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_12
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 618
+        width: 302
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19027246a06e59fe0800000000000000
+      internalID: -1182786394810539887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_13
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 806
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccce33a576b5df990800000000000000
+      internalID: -7350618517345669940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_14
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 834
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8f7c29d0ee93980800000000000000
+      internalID: -8558547874776352585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_15
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 776
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9076efb2da8a44230800000000000000
+      internalID: 3622205462033622793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_16
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 820
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db7ce94f2eacc1c0800000000000000
+      internalID: -4482016011013555244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_17
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 446
+        width: 302
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c90a1255870e3d0800000000000000
+      internalID: -3179409029891842917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_18
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 734
+        width: 101
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6ebf742c1cce940800000000000000
+      internalID: 5326845499447961279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_19
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 748
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b5f50017ae90ba0800000000000000
+      internalID: -6122104447375025257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_20
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 676
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6add56fb5c066dfc0800000000000000
+      internalID: -3470480060406440538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_21
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 460
+        width: 202
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1fdff8aa90b8ab0800000000000000
+      internalID: -5004895932727299591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_22
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 690
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f6511923ed19f60800000000000000
+      internalID: 8039451118596878174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_23
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 604
+        width: 101
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17eb730213222e880800000000000000
+      internalID: -8583260345425478031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_24
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 460
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8354b4cf8d5a0a70800000000000000
+      internalID: 8793944094456173450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_25
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 517
+        width: 152
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3099bd17ce20ac870800000000000000
+      internalID: 8703772444392659203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_26
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 345
+        width: 252
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62efa2af8ef5b1fb0800000000000000
+      internalID: -4676038333859955162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_27
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 417
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a19abe61ba64b7a0800000000000000
+      internalID: -6362343063268191832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_28
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 114
+        width: 301
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc50c49035887820800000000000000
+      internalID: 2916227202422955219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_29
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 445
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2c97cf287b42b50800000000000000
+      internalID: 6567575929822495401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_30
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 402
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc43ade41032bb80800000000000000
+      internalID: -8380583090138690348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_31
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 417
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bfc5578678926a0800000000000000
+      internalID: -6473494106653000826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_32
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 244
+        width: 201
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edca946b93a573e90800000000000000
+      internalID: -7046063888079934242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_33
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 446
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19326ffd2346cc800800000000000000
+      internalID: 633991817220989841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_34
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 258
+        width: 152
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0fdfbc278b81d120800000000000000
+      internalID: 2436882286071766796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_35
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 316
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e25f20d9b2b5760800000000000000
+      internalID: 7447594362146729588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_36
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 100
+        width: 202
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918d11dbcf2eaaba0800000000000000
+      internalID: -6076795172051363815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_37
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 287
+        width: 101
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1c2fcd08f2c8370800000000000000
+      internalID: 8326082041610420704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_38
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 42
+        width: 202
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b3664b5a110d0c0800000000000000
+      internalID: -4553119819877696665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_39
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 114
+        width: 102
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef34041d3fdf2740800000000000000
+      internalID: 5129563954020106214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_40
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 201
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e441a67210f5b8690800000000000000
+      internalID: -7598875487696710578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_41
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 114
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfdb6334e89487a00800000000000000
+      internalID: 754433812946402813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_42
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 28
+        width: 101
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64227a8cd6d4429b0800000000000000
+      internalID: -5105870943618129338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_43
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 129
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979b02dc47e336410800000000000000
+      internalID: 1469086574831516025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_44
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 14
+        width: 102
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e1c810ccb7b8760800000000000000
+      internalID: 7461193323798863485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_45
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 13
+        width: 102
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb23e6d0b211f1d0800000000000000
+      internalID: -3318850899666588749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_46
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 128
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f864cf770eeb160800000000000000
+      internalID: 7043313673192247143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_47
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 28
+        width: 101
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a94dbce04e437280800000000000000
+      internalID: -9046801185700492896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_48
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 14
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42d60be8da7ebd70800000000000000
+      internalID: 9060814572390634063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_49
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 42
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2245b2ea0d1dc3970800000000000000
+      internalID: 8736088071397397538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scrixels_winter_50
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 14
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3256d315ef18490800000000000000
+      internalID: -7745630259224697875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e8242274bef09b47999bf3d790d7d20
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      scrixels_winter_0: -2298308595801042380
+      scrixels_winter_1: 8855061314168703207
+      scrixels_winter_10: -6579880971018649032
+      scrixels_winter_11: 2516762086124850174
+      scrixels_winter_12: -1182786394810539887
+      scrixels_winter_13: -7350618517345669940
+      scrixels_winter_14: -8558547874776352585
+      scrixels_winter_15: 3622205462033622793
+      scrixels_winter_16: -4482016011013555244
+      scrixels_winter_17: -3179409029891842917
+      scrixels_winter_18: 5326845499447961279
+      scrixels_winter_19: -6122104447375025257
+      scrixels_winter_2: 940101708784728106
+      scrixels_winter_20: -3470480060406440538
+      scrixels_winter_21: -5004895932727299591
+      scrixels_winter_22: 8039451118596878174
+      scrixels_winter_23: -8583260345425478031
+      scrixels_winter_24: 8793944094456173450
+      scrixels_winter_25: 8703772444392659203
+      scrixels_winter_26: -4676038333859955162
+      scrixels_winter_27: -6362343063268191832
+      scrixels_winter_28: 2916227202422955219
+      scrixels_winter_29: 6567575929822495401
+      scrixels_winter_3: 2586239338577750401
+      scrixels_winter_30: -8380583090138690348
+      scrixels_winter_31: -6473494106653000826
+      scrixels_winter_32: -7046063888079934242
+      scrixels_winter_33: 633991817220989841
+      scrixels_winter_34: 2436882286071766796
+      scrixels_winter_35: 7447594362146729588
+      scrixels_winter_36: -6076795172051363815
+      scrixels_winter_37: 8326082041610420704
+      scrixels_winter_38: -4553119819877696665
+      scrixels_winter_39: 5129563954020106214
+      scrixels_winter_4: 6681848913744445971
+      scrixels_winter_40: -7598875487696710578
+      scrixels_winter_41: 754433812946402813
+      scrixels_winter_42: -5105870943618129338
+      scrixels_winter_43: 1469086574831516025
+      scrixels_winter_44: 7461193323798863485
+      scrixels_winter_45: -3318850899666588749
+      scrixels_winter_46: 7043313673192247143
+      scrixels_winter_47: -9046801185700492896
+      scrixels_winter_48: 9060814572390634063
+      scrixels_winter_49: 8736088071397397538
+      scrixels_winter_5: -3265273923486288917
+      scrixels_winter_50: -7745630259224697875
+      scrixels_winter_6: 5315144163946014763
+      scrixels_winter_7: -2470875682139904690
+      scrixels_winter_8: 7055656993225446623
+      scrixels_winter_9: 1069602807038736707
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
