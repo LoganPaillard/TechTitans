@@ -25,6 +25,7 @@ public class Tappable : MonoBehaviour
     void OnEnable()
     {
         pressGesture.Pressed += PressedHandler;
+        StartCoroutine(objectTimer());
     }
 
     void OnDisable()
@@ -51,6 +52,19 @@ public class Tappable : MonoBehaviour
         yield return new WaitForSeconds(getRespawnTimeFromID(objectID));
 
         sprite.enabled = true;
+        StartCoroutine(objectTimer());
+    }
+
+    private IEnumerator objectTimer()
+    {
+        yield return new WaitForSeconds(getRespawnTimeFromID(objectID));
+        SpriteRenderer sprite = GetComponent<SpriteRenderer>();
+
+        if (sprite.enabled)
+        {
+            GameManager.Instance.RemoveScore(getScoreFromID(objectID));
+            StartCoroutine(waitRespawn());
+        }
     }
 
     private int getScoreFromID(objectID id)
@@ -61,10 +75,10 @@ public class Tappable : MonoBehaviour
                 return 10;
 
             case objectID.Mushroom:
-                return 420;
+                return 42;
 
             case objectID.Gem:
-                return 69;
+                return 67;
             
             case objectID.Skunk:
                 return -50;
