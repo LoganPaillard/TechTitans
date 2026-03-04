@@ -89,6 +89,7 @@ public class GameManager : MonoBehaviour
         isGameRunning = false;
         Debug.Log("Game Over! Final Score: " + score);
         LevelManager.Instance.LoadScene(SceneID.MainMenu, TransitionID.CrossFade);
+        score = 0;
     }
 
     public void nextLevel()
