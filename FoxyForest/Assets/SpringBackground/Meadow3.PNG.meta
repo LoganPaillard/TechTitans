@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 739ad040037b24a4aa689bb7160eb901
+guid: 6afc2df3d2e596d4ebd0f32d94d398d0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1649889284329578131
-    second: dreamstime_xxl_316749856.jpg_0
+      213: 1776051897721759978
+    second: Meadow3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dreamstime_xxl_316749856.jpg_0
+      name: Meadow3_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 4627
-        height: 2593
+        width: 2906
+        height: 391
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d61efc8ff6a6a19e0800000000000000
-      internalID: -1649889284329578131
+      spriteID: ae82d528acdc5a810800000000000000
+      internalID: 1776051897721759978
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dreamstime_xxl_316749856.jpg_0: -1649889284329578131
+      Meadow3_0: 1776051897721759978
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
