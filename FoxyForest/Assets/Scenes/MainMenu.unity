@@ -1014,7 +1014,7 @@ MonoBehaviour:
   score: 0
   sceneChanging: 0
   endTime: 0
-  timeLimit: 20
+  timeLimit: 90
   timerCircleImage: {fileID: 0}
   dayNightController: {fileID: 619394803}
 --- !u!4 &1560043920
