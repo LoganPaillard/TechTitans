@@ -67,4 +67,9 @@ public class MainMenu : MonoBehaviour
     {
         GameManager.Instance.togglePause();
     }
+
+    public void EndGame()
+    {
+        GameManager.Instance.EndGame();
+    }
 }

@@ -2415,7 +2415,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5869853521572351675, guid: 5cb66c2f631a48d4a874384e2f1f2120, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Menu
+      value: EndGame
       objectReference: {fileID: 0}
     - target: {fileID: 5869853521572351675, guid: 5cb66c2f631a48d4a874384e2f1f2120, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
