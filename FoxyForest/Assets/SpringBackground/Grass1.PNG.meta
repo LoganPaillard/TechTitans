@@ -11,9 +11,6 @@ TextureImporter:
   - first:
       213: -2532410006466617190
     second: Grass1_2
-  - first:
-      213: -2276392149206167163
-    second: Grass1_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,9 +110,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 10
-        width: 2816
-        height: 418
+        y: 349
+        width: 2793
+        height: 416
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +131,10 @@ TextureImporter:
       name: Grass1_1
       rect:
         serializedVersion: 2
-        x: 49
-        y: 417
+        x: 25
+        y: 753
         width: 290
-        height: 11
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,10 +153,10 @@ TextureImporter:
       name: Grass1_2
       rect:
         serializedVersion: 2
-        x: 530
-        y: 423
+        x: 506
+        y: 759
         width: 10
-        height: 5
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,28 +167,6 @@ TextureImporter:
       bones: []
       spriteID: a90a9e234821bdcd0800000000000000
       internalID: -2532410006466617190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grass1_3
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 0
-        width: 15
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5811411b661a860e0800000000000000
-      internalID: -2276392149206167163
       vertices: []
       indices: 
       edges: []
@@ -213,7 +188,6 @@ TextureImporter:
       Grass1_0: -3791302062108767836
       Grass1_1: 7385793970021980513
       Grass1_2: -2532410006466617190
-      Grass1_3: -2276392149206167163
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

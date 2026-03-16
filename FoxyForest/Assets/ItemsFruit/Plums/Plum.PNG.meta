@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 46b8b47e542998045b694c8ca5ba129f
-=======
-guid: 08bc170dbdbe8894aba2f8e5dc472a78
->>>>>>> 6b41ab4c5553bc9002eadcc92c0d6a7c7932eb7a
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -107,10 +103,10 @@ TextureImporter:
       name: Plum_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 301
-        height: 230
+        x: 1159
+        y: 1471
+        width: 303
+        height: 232
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -1,14 +1,10 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 29cb02fd8bbd6f3479a9d18923ce5001
-=======
-guid: 65e541f36589ccb4eac1508d49388a53
->>>>>>> 6b41ab4c5553bc9002eadcc92c0d6a7c7932eb7a
+guid: 83b89deaa28c12f45b6eded954ec1a52
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -151515558224362412
-    second: nesteggs_0
+      213: 7700822839184048976
+    second: CornCoup_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -104,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nesteggs_0
+      name: CornCoup_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 3240
-        height: 1920
+        width: 3348
+        height: 1569
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 454871e0765b5edf0800000000000000
-      internalID: -151515558224362412
+      spriteID: 053c7cf4291deda60800000000000000
+      internalID: 7700822839184048976
       vertices: []
       indices: 
       edges: []
@@ -139,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      nesteggs_0: -151515558224362412
+      CornCoup_0: 7700822839184048976
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

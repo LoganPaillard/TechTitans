@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: f6405285632aa7e4d832826cebfa8fca
+guid: 3667d6464654bd64784b4cc46601811e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7725513467537407295
-    second: Paint Layer 5_0
-  - first:
-      213: -3168725125546047560
-    second: Paint Layer 5_1
-  - first:
-      213: 5186310671964492340
-    second: Paint Layer 5_2
+      213: -725207598207942491
+    second: GrassFront2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Paint Layer 5_0
+      name: GrassFront2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 939
-        height: 640
+        width: 3316
+        height: 505
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,52 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3d30143199863b60800000000000000
-      internalID: 7725513467537407295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Paint Layer 5_1
-      rect:
-        serializedVersion: 2
-        x: 1704
-        y: 52
-        width: 1097
-        height: 1196
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8b709f4794d6604d0800000000000000
-      internalID: -3168725125546047560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Paint Layer 5_2
-      rect:
-        serializedVersion: 2
-        x: 2683
-        y: 45
-        width: 174
-        height: 217
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 432d241f31a79f740800000000000000
-      internalID: 5186310671964492340
+      spriteID: 5a0c660288b8fe5f0800000000000000
+      internalID: -725207598207942491
       vertices: []
       indices: 
       edges: []
@@ -185,9 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Paint Layer 5_0: 7725513467537407295
-      Paint Layer 5_1: -3168725125546047560
-      Paint Layer 5_2: 5186310671964492340
+      GrassFront2_0: -725207598207942491
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

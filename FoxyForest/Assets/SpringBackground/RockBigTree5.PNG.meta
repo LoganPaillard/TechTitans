@@ -107,9 +107,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 954
-        height: 639
+        y: 719
+        width: 894
+        height: 631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,10 +128,10 @@ TextureImporter:
       name: RockBigTree5_1
       rect:
         serializedVersion: 2
-        x: 1718
-        y: 42
-        width: 1140
-        height: 1205
+        x: 1658
+        y: 753
+        width: 1141
+        height: 1167
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

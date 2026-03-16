@@ -107,9 +107,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 90
-        width: 1066
-        height: 1120
+        y: 851
+        width: 1021
+        height: 1069
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,10 +128,10 @@ TextureImporter:
       name: mediumTreesandBushes6_1
       rect:
         serializedVersion: 2
-        x: 1083
-        y: 0
-        width: 1308
-        height: 1210
+        x: 1038
+        y: 760
+        width: 1309
+        height: 1160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

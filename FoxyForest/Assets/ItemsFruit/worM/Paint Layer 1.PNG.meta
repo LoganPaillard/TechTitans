@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: f43c778dca32b5646906112a1db6591d
-=======
-guid: 10025484a62ab6f4bb7a589f950f13ee
->>>>>>> 6b41ab4c5553bc9002eadcc92c0d6a7c7932eb7a
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -107,10 +103,10 @@ TextureImporter:
       name: Paint Layer 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 382
-        height: 100
+        x: 52
+        y: 1557
+        width: 653
+        height: 205
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

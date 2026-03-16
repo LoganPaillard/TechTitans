@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 915283ce60b7ada46affa013675d0cea
+guid: ab7aa9faee8b53844af90f17735acac4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7295899095015691490
-    second: Paint Layer 2_0
+      213: 7073544126024997090
+    second: MoountainsBack_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Paint Layer 2_0
+      name: MoountainsBack_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2823
-        height: 364
+        width: 3377
+        height: 1308
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e1bee7cad62cfba90800000000000000
-      internalID: -7295899095015691490
+      spriteID: 2e855c6c7e64a2260800000000000000
+      internalID: 7073544126024997090
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Paint Layer 2_0: -7295899095015691490
+      MoountainsBack_0: 7073544126024997090
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

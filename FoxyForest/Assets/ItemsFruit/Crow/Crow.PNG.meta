@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 39940fe3451b7364e98ad9a45b909369
-=======
-guid: 8e37f8a317d1b58409b8da413b07eb8d
->>>>>>> 6b41ab4c5553bc9002eadcc92c0d6a7c7932eb7a
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -107,10 +103,10 @@ TextureImporter:
       name: Crow_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 652
-        height: 433
+        x: 70
+        y: 1122
+        width: 654
+        height: 435
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

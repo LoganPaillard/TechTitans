@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0d2c8ade0b99d1b48a1527bbeed6f98b
+guid: ad8d50cec4a943744ba92f9053f2f745
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1483141417685161493
-    second: Paint Layer 3_0
+      213: -151515558224362412
+    second: nesteggs_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Paint Layer 3_0
+      name: nesteggs_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2975
-        height: 391
+        x: 871
+        y: 1521
+        width: 467
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5161bc8e24d259410800000000000000
-      internalID: 1483141417685161493
+      spriteID: 454871e0765b5edf0800000000000000
+      internalID: -151515558224362412
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Paint Layer 3_0: 1483141417685161493
+      nesteggs_0: -151515558224362412
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

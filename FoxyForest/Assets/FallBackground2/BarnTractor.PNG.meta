@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3e156175cf53b314dabef3b1eaef6847
+guid: d9380c88c1379d94f8c39992ced788c5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5463182796115190368
-    second: Paint Layer 4_0
+      213: -6933404976037831562
+    second: BarnTractor_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Paint Layer 4_0
+      name: BarnTractor_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2805
-        height: 426
+        width: 3394
+        height: 1559
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 062a871decf11db40800000000000000
-      internalID: 5463182796115190368
+      spriteID: 67cd657b8e897cf90800000000000000
+      internalID: -6933404976037831562
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Paint Layer 4_0: 5463182796115190368
+      BarnTractor_0: -6933404976037831562
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
