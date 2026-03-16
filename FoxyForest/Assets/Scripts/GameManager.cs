@@ -82,7 +82,6 @@ public class GameManager : MonoBehaviour
     {
         isGameRunning = true;
         endTime = Time.time + timeLimit;
-        UpdateScore();
         dayNightController.UpdateLight(0);
         Debug.Log(scene.name + " Loaded.");
     }
@@ -92,7 +91,16 @@ public class GameManager : MonoBehaviour
         isGameRunning = false;
         Debug.Log("Game Over! Final Score: " + score);
         LevelManager.Instance.LoadScene(SceneID.MainMenu, TransitionID.CrossFade);
+        resetAll();
+    }
+
+    private void resetAll()
+    {
+        isGameRunning = false;
         score = 0;
+        UpdateScore();
+        dayNightController.UpdateLight(0.5f);
+        Debug.Log("Game Reset.");
     }
 
     public void nextLevel()
@@ -134,7 +142,7 @@ public class GameManager : MonoBehaviour
         if (scoreText != null)
         {
             scoreText.text = score.ToString();
-            Debug.Log("Score updated: " + score);
+            ///Debug.Log("Score updated: " + score);
         }
         else
         {
