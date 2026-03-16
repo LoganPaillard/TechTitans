@@ -319,3 +319,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreTextPrefab: {fileID: 2384387212774678913, guid: cd64766438d4fd94c8c5ccd845081935, type: 3}
+  growDuration: 2
+  finalScale: {x: 0.2, y: 0.2, z: 0.2}

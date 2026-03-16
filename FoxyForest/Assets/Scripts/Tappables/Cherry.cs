@@ -13,10 +13,21 @@ public class Cherry : Tappable
     protected override void OnEnable()
     {
         base.OnEnable(); 
-        
+        transform.localScale = Vector3.zero;
         StartCoroutine(Grow());
     }
 
+    protected override void OnDisable()
+    {
+        base.OnDisable();
+        transform.localScale = Vector3.zero;
+    }
+
+    protected override void respawnEffect()
+    {
+        StopAllCoroutines();
+        StartCoroutine(Grow());
+    }
     private IEnumerator Grow()
     {
         float timer = 0;

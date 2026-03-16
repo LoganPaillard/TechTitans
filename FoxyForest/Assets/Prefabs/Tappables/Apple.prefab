@@ -290,3 +290,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e8caa601e6d8da49bed2776de707edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreTextPrefab: {fileID: 2384387212774678913, guid: cd64766438d4fd94c8c5ccd845081935, type: 3}
+  growDuration: 0.8
+  finalScale: {x: 1, y: 1, z: 1}

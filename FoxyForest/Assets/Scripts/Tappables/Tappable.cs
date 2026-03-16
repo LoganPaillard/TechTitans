@@ -50,7 +50,13 @@ public class Tappable : MonoBehaviour
         yield return new WaitForSeconds(respawnTime);
 
         sprite.enabled = true;
+        respawnEffect();
         StartCoroutine(objectTimer());
+    }
+
+    protected virtual void respawnEffect()
+    {
+        
     }
 
     private IEnumerator objectTimer()

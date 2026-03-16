@@ -23,6 +23,12 @@ public class Apple : Tappable
         transform.localScale = Vector3.zero;
     }
 
+    protected override void respawnEffect()
+    {
+        StopAllCoroutines();
+        StartCoroutine(Grow());
+    }
+
     private IEnumerator Grow()
     {
         float timer = 0;

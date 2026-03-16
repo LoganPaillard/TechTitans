@@ -1,16 +1,7 @@
 using UnityEngine;
 
-public class Peanut : MonoBehaviour
+public class Peanut: Tappable
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public override int score => -32;
+    public override float respawnTime => Random.Range(1f, 3f);
 }
