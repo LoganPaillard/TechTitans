@@ -301,6 +301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: 1
+  scoreTextPrefab: {fileID: 0}
 --- !u!60 &109855923
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -718,6 +719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: 3
+  scoreTextPrefab: {fileID: 2384387212774678913, guid: cd64766438d4fd94c8c5ccd845081935, type: 3}
 --- !u!60 &243241693
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1154,6 +1156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: 0
+  scoreTextPrefab: {fileID: 2384387212774678913, guid: cd64766438d4fd94c8c5ccd845081935, type: 3}
 --- !u!60 &273061227
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2035,6 +2038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: 2
+  scoreTextPrefab: {fileID: 2384387212774678913, guid: cd64766438d4fd94c8c5ccd845081935, type: 3}
 --- !u!114 &610519925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2444,6 +2448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: 1
+  scoreTextPrefab: {fileID: 0}
 --- !u!60 &679450970
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2759,6 +2764,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: 0
+  scoreTextPrefab: {fileID: 2384387212774678913, guid: cd64766438d4fd94c8c5ccd845081935, type: 3}
 --- !u!114 &681221195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3721,6 +3727,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: 4
+  scoreTextPrefab: {fileID: 0}
 --- !u!60 &771248303
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4167,6 +4174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: 4
+  scoreTextPrefab: {fileID: 0}
 --- !u!60 &788752328
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4872,6 +4880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: 1
+  scoreTextPrefab: {fileID: 0}
 --- !u!114 &812968780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5425,6 +5434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: 1
+  scoreTextPrefab: {fileID: 0}
 --- !u!60 &944618419
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6027,6 +6037,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: 0
+  scoreTextPrefab: {fileID: 2384387212774678913, guid: cd64766438d4fd94c8c5ccd845081935, type: 3}
 --- !u!60 &1157880848
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6842,6 +6853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: 2
+  scoreTextPrefab: {fileID: 0}
 --- !u!60 &1446840406
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7673,6 +7685,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: 1
+  scoreTextPrefab: {fileID: 0}
 --- !u!60 &1763583020
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8001,6 +8014,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: 0
+  scoreTextPrefab: {fileID: 2384387212774678913, guid: cd64766438d4fd94c8c5ccd845081935, type: 3}
 --- !u!60 &1823221960
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8291,6 +8305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: 0
+  scoreTextPrefab: {fileID: 2384387212774678913, guid: cd64766438d4fd94c8c5ccd845081935, type: 3}
 --- !u!60 &1955272306
 PolygonCollider2D:
   m_ObjectHideFlags: 0

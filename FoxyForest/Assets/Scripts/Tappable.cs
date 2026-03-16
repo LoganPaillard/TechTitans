@@ -14,6 +14,7 @@ public enum objectID
 public class Tappable : MonoBehaviour
 {
     [SerializeField] public objectID objectID;
+    [SerializeField] public GameObject scoreTextPrefab;
 
     private PressGesture pressGesture;
 
@@ -37,6 +38,12 @@ public class Tappable : MonoBehaviour
     {
         if (GameManager.Instance != null && GameManager.Instance.isGameRunning)
         {
+            int scoreValue = getScoreFromID(objectID);
+            SpriteRenderer sprite = GetComponent<SpriteRenderer>();
+            if (sprite.enabled == true)
+            {
+                ShowFloatingText(scoreValue);
+            }
             StartCoroutine(waitRespawn());
         }
     }
@@ -112,6 +119,15 @@ public class Tappable : MonoBehaviour
 
             default:
                 return 0f;
+        }
+    }
+
+    private void ShowFloatingText(int value)
+    {
+        if (scoreTextPrefab != null)
+        {
+            GameObject textObj = Instantiate(scoreTextPrefab, transform.position, UnityEngine.Quaternion.identity);
+            textObj.GetComponent<FloatingText>().SetText(value);
         }
     }
 }
