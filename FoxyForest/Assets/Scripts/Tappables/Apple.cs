@@ -1,9 +1,9 @@
 using UnityEngine;
 using System.Collections;
 
-public class Cherry : Tappable
+public class Apple : Tappable
 {
-    public override int score => 10;
+    public override int score => 12;
     public override float respawnTime => Random.Range(2f, 4f);
 
     [Header("Growth Settings")]
@@ -13,8 +13,14 @@ public class Cherry : Tappable
     protected override void OnEnable()
     {
         base.OnEnable(); 
-        
+        transform.localScale = Vector3.zero;
         StartCoroutine(Grow());
+    }
+
+    protected override void OnDisable()
+    {
+        base.OnDisable();
+        transform.localScale = Vector3.zero;
     }
 
     private IEnumerator Grow()
