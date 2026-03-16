@@ -21,7 +21,7 @@ public enum TransitionID {
 public class LevelManager : MonoBehaviour
 {
     public static LevelManager Instance;
- 
+    public GameObject touchBlocker;
     public Slider progressBar;
     public GameObject transitionsContainer;
  
@@ -53,6 +53,8 @@ public class LevelManager : MonoBehaviour
  
     private IEnumerator LoadSceneAsync(SceneID sceneID, TransitionID transitionID)
     {
+        touchBlocker.SetActive(true);
+
         SceneTransition transition = transitions.First(t => t.name == transitionID.ToString());
  
         AsyncOperation scene = SceneManager.LoadSceneAsync(sceneID.ToString());
@@ -75,5 +77,7 @@ public class LevelManager : MonoBehaviour
         progressBar.gameObject.SetActive(false);
  
         yield return transition.AnimateTransitionOut();
+
+        touchBlocker.SetActive(false);
     }
 }

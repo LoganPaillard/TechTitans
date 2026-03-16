@@ -16,7 +16,8 @@ public class GameManager : MonoBehaviour
     [Header("Timer")]
     public float endTime;
     public float timeLimit = 5f;
-    public Image timerCircleImage;    
+    public Image timerCircleImage;
+    public DayNightController dayNightController;
 
     void Awake()
     {
@@ -69,6 +70,7 @@ public class GameManager : MonoBehaviour
         if (Time.time < endTime)
         {
             timerCircleImage.fillAmount = (endTime - Time.time) / timeLimit;
+            dayNightController.UpdateLight(1 - timerCircleImage.fillAmount);
         }
         else
         {
@@ -81,6 +83,7 @@ public class GameManager : MonoBehaviour
         isGameRunning = true;
         endTime = Time.time + timeLimit;
         UpdateScore();
+        dayNightController.UpdateLight(0);
         Debug.Log(scene.name + " Loaded.");
     }
 
