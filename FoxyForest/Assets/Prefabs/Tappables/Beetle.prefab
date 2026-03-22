@@ -261,3 +261,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7be7e075a263995449fe8022521e5157, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreTextPrefab: {fileID: 2384387212774678913, guid: cd64766438d4fd94c8c5ccd845081935, type: 3}

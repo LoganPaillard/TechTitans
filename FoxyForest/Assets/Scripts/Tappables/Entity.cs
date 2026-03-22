@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using TouchScript.Gestures;
 
-public class Tappable : MonoBehaviour
+public class Entity : MonoBehaviour
 {
     [SerializeField] public GameObject scoreTextPrefab;
 

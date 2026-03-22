@@ -149,6 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dcbac468a49044ebee5729945f2bf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreTextPrefab: {fileID: 2384387212774678913, guid: cd64766438d4fd94c8c5ccd845081935, type: 3}
 --- !u!60 &2443684939024702520
 PolygonCollider2D:
   m_ObjectHideFlags: 0
