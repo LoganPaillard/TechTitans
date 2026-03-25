@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using System.Collections;
 using TMPro;
 
 public class GameManager : MonoBehaviour
@@ -44,11 +43,12 @@ public class GameManager : MonoBehaviour
             case "MainMenu":
             {
                 isGameRunning = false;
-                MusicManager.Instance.PlayMusic(MusicID.MainMenu);
+                MusicManager.Instance.PlayMusic(MusicID.Spring);
                 Debug.Log("Main Menu Loaded.");
                 break;
             }
             case "Spring":
+            case "Winter":
             {
                 MusicManager.Instance.PlayMusic(MusicID.Spring);
                 StartGame(scene);
@@ -56,19 +56,13 @@ public class GameManager : MonoBehaviour
             }
             case "Summer":
             {
-                MusicManager.Instance.PlayMusic(MusicID.MainMenu);
+                MusicManager.Instance.PlayMusic(MusicID.Summer);
                 StartGame(scene);
                 break;
             }
             case "Autumn":
             {
-                MusicManager.Instance.PlayMusic(MusicID.Spring);
-                StartGame(scene);
-                break;
-            }
-            case "Winter":
-            {
-                MusicManager.Instance.PlayMusic(MusicID.MainMenu);
+                MusicManager.Instance.PlayMusic(MusicID.Autumn);
                 StartGame(scene);
                 break;
             }
