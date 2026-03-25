@@ -2,7 +2,11 @@ using UnityEngine;
 
 public enum MusicID {
     None,
-    MainMenu
+    MainMenu,
+    Spring,
+    Summer,
+    Autumn,
+    Winter
 }
 
 [System.Serializable]
