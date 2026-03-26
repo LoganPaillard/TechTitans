@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: c14e70a8a4c8e624aa7278bc0e505ec6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3707235546367373908
+    second: FoxTailWag3_0
+  - first:
+      213: 6428469402252839221
+    second: FoxTailWag3_1
+  - first:
+      213: -2631477731592197385
+    second: FoxTailWag3_2
+  - first:
+      213: 8685329890682143867
+    second: FoxTailWag3_3
+  - first:
+      213: 3238658062187230172
+    second: FoxTailWag3_4
+  - first:
+      213: -9166027259694057593
+    second: FoxTailWag3_5
+  - first:
+      213: -3580293845424728733
+    second: FoxTailWag3_6
+  - first:
+      213: -6787311945609072586
+    second: FoxTailWag3_7
+  - first:
+      213: -5342612830356186175
+    second: FoxTailWag3_8
+  - first:
+      213: 5235560786796846575
+    second: FoxTailWag3_9
+  - first:
+      213: -2875160683649176439
+    second: FoxTailWag3_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FoxTailWag3_0
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 1611
+        width: 1053
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad421099e04d8cc0800000000000000
+      internalID: -3707235546367373908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxTailWag3_1
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 1611
+        width: 1090
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5398fb2acd2863950800000000000000
+      internalID: 6428469402252839221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxTailWag3_2
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 1611
+        width: 1114
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7faa81ef1fc1b7bd0800000000000000
+      internalID: -2631477731592197385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxTailWag3_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 820
+        width: 1043
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74013bc48d788870800000000000000
+      internalID: 8685329890682143867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxTailWag3_4
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 820
+        width: 1100
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3ff91395602fc20800000000000000
+      internalID: 3238658062187230172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxTailWag3_5
+      rect:
+        serializedVersion: 2
+        x: 2531
+        y: 820
+        width: 1045
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787736065cabbc080800000000000000
+      internalID: -9166027259694057593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxTailWag3_6
+      rect:
+        serializedVersion: 2
+        x: 3692
+        y: 820
+        width: 1100
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36511ff77bd305ec0800000000000000
+      internalID: -3580293845424728733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxTailWag3_7
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 32
+        width: 1043
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630b4360fbf9ec1a0800000000000000
+      internalID: -6787311945609072586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxTailWag3_8
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 32
+        width: 1114
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cbdc2aefe93bd5b0800000000000000
+      internalID: -5342612830356186175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxTailWag3_9
+      rect:
+        serializedVersion: 2
+        x: 2487
+        y: 32
+        width: 1089
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed9df0ebc278a840800000000000000
+      internalID: 5235560786796846575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxTailWag3_10
+      rect:
+        serializedVersion: 2
+        x: 3739
+        y: 32
+        width: 1053
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cebea67906918d0800000000000000
+      internalID: -2875160683649176439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4ad4866bc635ded49a364e702735444b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FoxTailWag3_0: -3707235546367373908
+      FoxTailWag3_1: 6428469402252839221
+      FoxTailWag3_10: -2875160683649176439
+      FoxTailWag3_2: -2631477731592197385
+      FoxTailWag3_3: 8685329890682143867
+      FoxTailWag3_4: 3238658062187230172
+      FoxTailWag3_5: -9166027259694057593
+      FoxTailWag3_6: -3580293845424728733
+      FoxTailWag3_7: -6787311945609072586
+      FoxTailWag3_8: -5342612830356186175
+      FoxTailWag3_9: 5235560786796846575
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

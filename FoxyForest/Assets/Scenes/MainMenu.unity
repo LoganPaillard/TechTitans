@@ -2055,8 +2055,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8703656934414282849, guid: 2ff6100a230e11b4ab228124070bdaa4, type: 3}
+      propertyPath: tracks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8703656934414282849, guid: 2ff6100a230e11b4ab228124070bdaa4, type: 3}
+      propertyPath: tracks.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: e34f8c3c4a411e54b9b3f634806e0eae, type: 3}
+    - target: {fileID: 8703656934414282849, guid: 2ff6100a230e11b4ab228124070bdaa4, type: 3}
+      propertyPath: tracks.Array.data[1].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9e0709b376c505440bfec9aa452d7b45, type: 3}
+    - target: {fileID: 8703656934414282849, guid: 2ff6100a230e11b4ab228124070bdaa4, type: 3}
       propertyPath: tracks.Array.data[0].trackID
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8703656934414282849, guid: 2ff6100a230e11b4ab228124070bdaa4, type: 3}
+      propertyPath: tracks.Array.data[1].trackID
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9177245107935818095, guid: 2ff6100a230e11b4ab228124070bdaa4, type: 3}
       propertyPath: soundEffects.Array.data[0].groupID
