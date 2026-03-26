@@ -4,8 +4,8 @@ using System.Collections;
 public class Fruit : Entity
 {
     [Header("Growth Settings")]
-    public virtual float growDuration => 0.8f;
-    public virtual Vector3 finalScale => Vector3.one;
+    public float growDuration = 0.8f;
+    public Vector3 finalScale = Vector3.one;
 
     protected override void OnEnable()
     {
