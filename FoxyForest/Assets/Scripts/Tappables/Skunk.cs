@@ -1,7 +1,52 @@
 using UnityEngine;
+using TouchScript.Gestures;
 
 public class Skunk: Animal
 {
+    private Animator animator;
+
+    private bool skunkIsWalking = true;
+    private TapGesture tapGesture;
+
+    public float speed = 1f;
+
+    public float leftBound = -10f;
+    public float rightBound = 10f;
+
     public override int score => -50;
     public override float respawnTime => Random.Range(1f, 3f);
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+        tapGesture = GetComponent<TapGesture>();
+    }
+    void OnEnable()
+    {
+        tapGesture.Tapped += OnTapped;
+    }
+    void OnDisable()
+    {
+        tapGesture.Tapped -= OnTapped;
+    }
+    void Update()
+    {
+        if (animator != null) {
+            animator.SetBool("skunkIsWalking", skunkIsWalking);
+        }
+        if (!skunkIsWalking) return;
+
+        transform.Translate(Vector3.right * speed * Time.deltaTime);
+        if (transform.position.x > rightBound)
+        {
+            transform.position = new Vector3(leftBound, transform.position.y, transform.position.z);
+        }
+    }
+
+    private void OnTapped(object sender, System.EventArgs e)
+    {
+      
+        skunkIsWalking = false;
+     
+    }
 }
