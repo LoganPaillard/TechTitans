@@ -4,29 +4,31 @@ using TouchScript.Gestures;
 public class Skunk: Animal
 {
     private Animator animator;
-
-    private bool skunkIsWalking = true;
     private TapGesture tapGesture;
 
+    private bool skunkIsWalking = true;
+    
     public float speed = 1f;
-
     public float leftBound = -10f;
     public float rightBound = 10f;
-
     public override int score => -50;
     public override float respawnTime => Random.Range(1f, 3f);
 
+
     private void Awake()
     {
+        base.Awake();
         animator = GetComponent<Animator>();
         tapGesture = GetComponent<TapGesture>();
     }
     void OnEnable()
     {
+        base.OnEnable();
         tapGesture.Tapped += OnTapped;
     }
     void OnDisable()
     {
+        base.OnDisable();
         tapGesture.Tapped -= OnTapped;
     }
     void Update()
@@ -47,6 +49,9 @@ public class Skunk: Animal
     {
       
         skunkIsWalking = false;
-     
+        animator.SetTrigger("skunkIsTapped");
+
+        PressedHandler(sender, e);  
+
     }
 }
