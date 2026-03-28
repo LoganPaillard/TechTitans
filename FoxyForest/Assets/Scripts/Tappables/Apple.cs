@@ -1,14 +1,16 @@
 using UnityEngine;
 using System.Collections;
-
+using System.Runtime.CompilerServices;
 public class Apple : Fruit
 {
     public override int score => _isFalling ? 20 : 10;
     public override float respawnTime => Random.Range(5f, 10f);
 
     [Header("Fall Settings")]
-    public float fallPosition = -3f;
-    public float fallDuration = 0.5f;
+    public float fallPositionUpper = -2f;
+    public float fallPositionLower = -4f;
+    private float fallPosition;
+    public float fallDuration = 1f;
     private Vector3 _spawnPosition;
     private bool _isFalling = false;
 
@@ -21,6 +23,7 @@ public class Apple : Fruit
     protected override void OnEnable()
     {
         transform.position = _spawnPosition;
+        fallPosition = Random.Range(fallPositionUpper, fallPositionLower);
         base.OnEnable();
     }
 
@@ -28,6 +31,7 @@ public class Apple : Fruit
     {
         transform.position = _spawnPosition;
         _isFalling = false;
+        fallPosition = Random.Range(fallPositionUpper, fallPositionLower);
         base.respawnEffect();
     }
     protected override IEnumerator Grow()
