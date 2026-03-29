@@ -21,16 +21,7 @@ public class Skunk: Animal
         animator = GetComponent<Animator>();
         tapGesture = GetComponent<TapGesture>();
     }
-    void OnEnable()
-    {
-        base.OnEnable();
-        tapGesture.Tapped += OnTapped;
-    }
-    void OnDisable()
-    {
-        base.OnDisable();
-        tapGesture.Tapped -= OnTapped;
-    }
+
     void Update()
     {
         if (animator != null) {
