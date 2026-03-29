@@ -79,7 +79,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 372384269
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7726149201764250942, guid: 91332be2d69953b4eafe6978deae14c1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -213,3 +213,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreTextPrefab: {fileID: 2384387212774678913, guid: cd64766438d4fd94c8c5ccd845081935, type: 3}
+  growDuration: 0.8
+  finalScale: {x: 1, y: 1, z: 1}
