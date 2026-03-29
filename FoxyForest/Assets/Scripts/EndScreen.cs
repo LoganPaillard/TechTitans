@@ -6,9 +6,6 @@ public class EndScreen : MonoBehaviour
 {
     public GameObject scoresContainer;
     private EndScore[] scores;
-    private int scoreSpring = 0;
-    private int scoreSummer = 0;
-    private int scoreAutumn = 0;
     private float maxUpdateDuration = 3f;
    
     private void Awake()
@@ -23,24 +20,22 @@ public class EndScreen : MonoBehaviour
 
     private void SetScores()
     {
-        StartCoroutine(SetScoresCoroutine());
+        for (int i = 0; i < GameManager.Instance.scoreSeasons.Count; i++)
+        {
+            StartCoroutine(SetScoresCoroutine(i));
+        }
     }
 
-    private IEnumerator SetScoresCoroutine()
+    private IEnumerator SetScoresCoroutine(int index)
     {
+        Debug.Log($"Setting score for season {index} with value {GameManager.Instance.scoreSeasons[index]}");
+        float score = 0;
         float endTime = Time.time + maxUpdateDuration;
-
-        // Within the end time, each score will be updated until it reaches its final value in GameManager
+        
         while (Time.time < endTime)
         {
-            scoreSpring = Mathf.CeilToInt(Mathf.Lerp(scoreSpring, GameManager.Instance.scoreSpring, 0.1f));
-            scoreSummer = Mathf.CeilToInt(Mathf.Lerp(scoreSummer, GameManager.Instance.scoreSummer, 0.1f));
-            scoreAutumn = Mathf.CeilToInt(Mathf.Lerp(scoreAutumn, GameManager.Instance.scoreAutumn, 0.1f));
-
-            scores[0].scoreText.text = $"{scoreSpring}";
-            scores[1].scoreText.text = $"{scoreSummer}";
-            scores[2].scoreText.text = $"{scoreAutumn}";
-
+            score = Mathf.CeilToInt(Mathf.Lerp(score, GameManager.Instance.scoreSeasons[index], 0.1f));
+            scores[index].scoreText.text = $"{score}";
             yield return null;
         }
     }
