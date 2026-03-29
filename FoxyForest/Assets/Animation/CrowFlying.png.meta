@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 60c3a17c2aa457f45870ba67623c3cd8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7134673731778272398
+    second: CrowFlying_0
+  - first:
+      213: -8384328020358010299
+    second: CrowFlying_1
+  - first:
+      213: 8093344036413607245
+    second: CrowFlying_2
+  - first:
+      213: 2302512171651292318
+    second: CrowFlying_3
+  - first:
+      213: 7419813543274286215
+    second: CrowFlying_4
+  - first:
+      213: 8020147891960692734
+    second: CrowFlying_5
+  - first:
+      213: 5813338541146799975
+    second: CrowFlying_6
+  - first:
+      213: -6240606702649859079
+    second: CrowFlying_7
+  - first:
+      213: -2428584496286043598
+    second: CrowFlying_8
+  - first:
+      213: 5240114941311705618
+    second: CrowFlying_9
+  - first:
+      213: 6796755050311086046
+    second: CrowFlying_10
+  - first:
+      213: 8629684258275415450
+    second: CrowFlying_11
+  - first:
+      213: 7834974419182265508
+    second: CrowFlying_12
+  - first:
+      213: 7568442794837358846
+    second: CrowFlying_13
+  - first:
+      213: 276064292719669306
+    second: CrowFlying_14
+  - first:
+      213: 8637978132666086133
+    second: CrowFlying_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CrowFlying_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 934
+        width: 249
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273ab05ca0c8cfc90800000000000000
+      internalID: -7134673731778272398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrowFlying_1
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 934
+        width: 249
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ae43a6612e4ab80800000000000000
+      internalID: -8384328020358010299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrowFlying_2
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 933
+        width: 249
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d857f4585515070800000000000000
+      internalID: 8093344036413607245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrowFlying_3
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 934
+        width: 249
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9cd942fe9a24ff10800000000000000
+      internalID: 2302512171651292318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrowFlying_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 622
+        width: 249
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c0f721b1978f660800000000000000
+      internalID: 7419813543274286215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrowFlying_5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 623
+        width: 249
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff3a62e30a4d4f60800000000000000
+      internalID: 8020147891960692734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrowFlying_6
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 622
+        width: 249
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f74205a902da050800000000000000
+      internalID: 5813338541146799975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrowFlying_7
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 623
+        width: 249
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f322a1a449e469a0800000000000000
+      internalID: -6240606702649859079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrowFlying_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 311
+        width: 249
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23279df844feb4ed0800000000000000
+      internalID: -2428584496286043598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrowFlying_9
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 312
+        width: 249
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212e91b96c0a8b840800000000000000
+      internalID: 5240114941311705618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrowFlying_10
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 311
+        width: 249
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf622f15bce25e50800000000000000
+      internalID: 6796755050311086046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrowFlying_11
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 312
+        width: 249
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9559426c1cc2c770800000000000000
+      internalID: 8629684258275415450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrowFlying_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 249
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4a1a709bb6bbc60800000000000000
+      internalID: 7834974419182265508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrowFlying_13
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 2
+        width: 249
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef835216f92880960800000000000000
+      internalID: 7568442794837358846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrowFlying_14
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 249
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30b9b6f207c4d300800000000000000
+      internalID: 276064292719669306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrowFlying_15
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1
+        width: 249
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2772f785340e770800000000000000
+      internalID: 8637978132666086133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 66c449225c38f1b4180348c0551aac2b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CrowFlying_0: -7134673731778272398
+      CrowFlying_1: -8384328020358010299
+      CrowFlying_10: 6796755050311086046
+      CrowFlying_11: 8629684258275415450
+      CrowFlying_12: 7834974419182265508
+      CrowFlying_13: 7568442794837358846
+      CrowFlying_14: 276064292719669306
+      CrowFlying_15: 8637978132666086133
+      CrowFlying_2: 8093344036413607245
+      CrowFlying_3: 2302512171651292318
+      CrowFlying_4: 7419813543274286215
+      CrowFlying_5: 8020147891960692734
+      CrowFlying_6: 5813338541146799975
+      CrowFlying_7: -6240606702649859079
+      CrowFlying_8: -2428584496286043598
+      CrowFlying_9: 5240114941311705618
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
