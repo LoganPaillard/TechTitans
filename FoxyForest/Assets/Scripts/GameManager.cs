@@ -8,9 +8,12 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get; private set; }
     [Header("Game State")]
     public bool isGameRunning = false;
+    public bool sceneChanging = false;
     public TextMeshProUGUI scoreText;
     public int score = 0;
-    public bool sceneChanging = false;
+    public int scoreSpring = 0;
+    public int scoreSummer = 0;
+    public int scoreAutumn = 0;
 
     [Header("Timer")]
     public float endTime;
@@ -48,21 +51,36 @@ public class GameManager : MonoBehaviour
                 break;
             }
             case "Spring":
-            case "Winter":
             {
+                scoreSpring = 0;
+                scoreSummer = 0;
+                scoreAutumn = 0;
+                ZeroScore();
                 MusicManager.Instance.PlayMusic(MusicID.Spring);
                 StartGame(scene);
                 break;
             }
             case "Summer":
             {
+                scoreSpring = score;
+                ZeroScore();
                 MusicManager.Instance.PlayMusic(MusicID.Summer);
                 StartGame(scene);
                 break;
             }
             case "Autumn":
             {
+                scoreSummer = score;
+                ZeroScore();
                 MusicManager.Instance.PlayMusic(MusicID.Autumn);
+                StartGame(scene);
+                break;
+            }
+            case "Winter":
+            {
+                scoreAutumn = score;
+                ZeroScore();
+                MusicManager.Instance.PlayMusic(MusicID.Spring);
                 StartGame(scene);
                 break;
             }
@@ -99,15 +117,14 @@ public class GameManager : MonoBehaviour
     {
         isGameRunning = false;
         Debug.Log("Game Over! Final Score: " + score);
-        LevelManager.Instance.LoadScene(SceneID.MainMenu, TransitionID.CrossFade);
         resetAll();
+        LevelManager.Instance.LoadScene(SceneID.MainMenu, TransitionID.CrossFade);
     }
 
     private void resetAll()
     {
         isGameRunning = false;
-        score = 0;
-        UpdateScore();
+        ZeroScore();
         dayNightController.UpdateLight(0.5f);
         Debug.Log("Game Reset.");
     }
@@ -134,6 +151,11 @@ public class GameManager : MonoBehaviour
         LevelManager.Instance.LoadScene(nextScene, TransitionID.SeasonWipe);
     }
 
+    public void ZeroScore()
+    {
+        score = 0;
+        UpdateScore();
+    }
     public void AddScore(int value)
     {
         this.score += value;
