@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
+using System.Collections;
+using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,9 +13,8 @@ public class GameManager : MonoBehaviour
     public bool sceneChanging = false;
     public TextMeshProUGUI scoreText;
     public int score = 0;
-    public int scoreSpring = 0;
-    public int scoreSummer = 0;
-    public int scoreAutumn = 0;
+    public Dictionary<SceneID, int> scoreSeasons = new();
+    public Dictionary<string, int> countItems = new();
 
     [Header("Timer")]
     public float endTime;
@@ -40,7 +41,6 @@ public class GameManager : MonoBehaviour
     void OnLevelLoaded(Scene scene, LoadSceneMode mode)
     {
         sceneChanging = false;
-
         switch (scene.name)
         {
             case "MainMenu":
@@ -52,9 +52,8 @@ public class GameManager : MonoBehaviour
             }
             case "Spring":
             {
-                scoreSpring = 0;
-                scoreSummer = 0;
-                scoreAutumn = 0;
+                scoreSeasons.Clear();
+                countItems.Clear();
                 ZeroScore();
                 MusicManager.Instance.PlayMusic(MusicID.Spring);
                 StartGame(scene);
@@ -62,7 +61,7 @@ public class GameManager : MonoBehaviour
             }
             case "Summer":
             {
-                scoreSpring = score;
+                scoreSeasons[SceneID.Spring] = score;
                 ZeroScore();
                 MusicManager.Instance.PlayMusic(MusicID.Summer);
                 StartGame(scene);
@@ -70,7 +69,7 @@ public class GameManager : MonoBehaviour
             }
             case "Autumn":
             {
-                scoreSummer = score;
+                scoreSeasons[SceneID.Summer] = score;
                 ZeroScore();
                 MusicManager.Instance.PlayMusic(MusicID.Autumn);
                 StartGame(scene);
@@ -78,7 +77,7 @@ public class GameManager : MonoBehaviour
             }
             case "Winter":
             {
-                scoreAutumn = score;
+                scoreSeasons[SceneID.Autumn] = score;
                 ZeroScore();
                 MusicManager.Instance.PlayMusic(MusicID.Spring);
                 StartGame(scene);
@@ -124,6 +123,8 @@ public class GameManager : MonoBehaviour
     private void resetAll()
     {
         isGameRunning = false;
+        scoreSeasons.Clear();
+        countItems.Clear();
         ZeroScore();
         dayNightController.UpdateLight(0.5f);
         Debug.Log("Game Reset.");
@@ -156,6 +157,7 @@ public class GameManager : MonoBehaviour
         score = 0;
         UpdateScore();
     }
+
     public void AddScore(int value)
     {
         this.score += value;
@@ -172,8 +174,16 @@ public class GameManager : MonoBehaviour
     {
         if (scoreText != null)
         {
+            if (score < 0)
+            {
+                scoreText.color = Color.red;
+            }
+            else
+            {
+                scoreText.color = Color.green;
+            }
+
             scoreText.text = score.ToString();
-            ///Debug.Log("Score updated: " + score);
         }
         else
         {

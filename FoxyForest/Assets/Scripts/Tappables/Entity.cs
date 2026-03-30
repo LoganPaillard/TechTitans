@@ -35,6 +35,10 @@ public class Entity : MonoBehaviour
         {
             if (sprite.enabled)
             {
+                var countItems = GameManager.Instance.countItems;
+                countItems[gameObject.name] = countItems.ContainsKey(gameObject.name) ? countItems[gameObject.name] + 1 : 1;
+                Debug.Log($"Tapped {gameObject.name}. Total count: {countItems[gameObject.name]}");
+                
                 ShowFloatingText(score);
                 StartCoroutine(waitRespawn());
             }

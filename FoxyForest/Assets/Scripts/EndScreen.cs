@@ -1,45 +1,87 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using System.Linq;
+using TMPro;
+using System.Collections.Generic;
 
 public class EndScreen : MonoBehaviour
 {
     public GameObject scoresContainer;
-    private EndScore[] scores;
-    private int scoreSpring = 0;
-    private int scoreSummer = 0;
-    private int scoreAutumn = 0;
+    public GameObject itemScoresContainer;
+    private Dictionary<string, EndScore> seasonScores = new();
+    private Dictionary<string, ItemScore> itemScores = new();
     private float maxUpdateDuration = 3f;
    
     private void Awake()
     {
-        scores = scoresContainer.GetComponentsInChildren<EndScore>();
+        foreach (var endScore in scoresContainer.GetComponentsInChildren<EndScore>())
+        {
+            seasonScores[endScore.gameObject.name] = endScore;
+        }
+
+        foreach (var itemScore in itemScoresContainer.GetComponentsInChildren<ItemScore>())
+        {
+            itemScores[itemScore.gameObject.name] = itemScore;
+        }
     }
 
     private void Start()
     {
         SetScores();
+        SetItemScores();
     }
 
     private void SetScores()
     {
-        StartCoroutine(SetScoresCoroutine());
+        foreach (var kvp in GameManager.Instance.scoreSeasons)
+        {
+            StartCoroutine(SetScoresCoroutine(kvp.Key, kvp.Value));
+        }
     }
 
-    private IEnumerator SetScoresCoroutine()
+    private IEnumerator SetScoresCoroutine(SceneID sceneId, int scoreValue)
     {
+        float score = 0;
         float endTime = Time.time + maxUpdateDuration;
+        EndScore endScore = seasonScores[sceneId.ToString()];
+        
+        if (scoreValue < 0)
+        {
+            endScore.scoreText.color = Color.red;
+        }
+        else
+        {
+            endScore.scoreText.color = Color.green;
+        }
 
-        // Within the end time, each score will be updated until it reaches its final value in GameManager
         while (Time.time < endTime)
         {
-            scoreSpring = Mathf.CeilToInt(Mathf.Lerp(scoreSpring, GameManager.Instance.scoreSpring, 0.1f));
-            scoreSummer = Mathf.CeilToInt(Mathf.Lerp(scoreSummer, GameManager.Instance.scoreSummer, 0.1f));
-            scoreAutumn = Mathf.CeilToInt(Mathf.Lerp(scoreAutumn, GameManager.Instance.scoreAutumn, 0.1f));
+            score = Mathf.CeilToInt(Mathf.Lerp(score, scoreValue, 0.1f));
+            endScore.scoreText.text = $"{score}";
 
-            scores[0].scoreText.text = $"{scoreSpring}";
-            scores[1].scoreText.text = $"{scoreSummer}";
-            scores[2].scoreText.text = $"{scoreAutumn}";
+            yield return null;
+        }
+    }
+
+    private void SetItemScores()
+    {
+        foreach (var kvp in GameManager.Instance.countItems)
+        {
+            StartCoroutine(SetItemScoresCoroutine(kvp.Key, kvp.Value));
+        }
+    }
+
+    private IEnumerator SetItemScoresCoroutine(string itemName, int count)
+    {
+        float score = 0;
+        float endTime = Time.time + maxUpdateDuration;
+        ItemScore itemScore = itemScores[itemName];
+
+        while (Time.time < endTime)
+        {
+            score = Mathf.CeilToInt(Mathf.Lerp(score, count, 0.1f));
+            itemScore.scoreText.text = $"{score}";
 
             yield return null;
         }

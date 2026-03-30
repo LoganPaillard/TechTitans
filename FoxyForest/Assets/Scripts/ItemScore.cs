@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-public class EndScore : MonoBehaviour
+public class ItemScore : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
 

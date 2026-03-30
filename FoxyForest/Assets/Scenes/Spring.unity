@@ -994,7 +994,7 @@ PrefabInstance:
       objectReference: {fileID: 7726149201764250942, guid: 91332be2d69953b4eafe6978deae14c1, type: 3}
     - target: {fileID: 8541846193267628254, guid: 803555b22e492654aae21697038742d6, type: 3}
       propertyPath: m_Name
-      value: Strawberry (1)
+      value: Strawberry
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1365,7 +1365,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6826980913168437143, guid: f65c583b3e653f54d859e16d5d281757, type: 3}
       propertyPath: m_Name
-      value: Mushroom (5)
+      value: Mushroom
       objectReference: {fileID: 0}
     - target: {fileID: 6903122016463296255, guid: f65c583b3e653f54d859e16d5d281757, type: 3}
       propertyPath: m_Size.x
@@ -1651,7 +1651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4732007116204496668, guid: d2b0dfae18754a14b812d2950189a1b5, type: 3}
       propertyPath: m_Name
-      value: Apple (6)
+      value: Apple
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1865,7 +1865,7 @@ PrefabInstance:
       objectReference: {fileID: 7726149201764250942, guid: 91332be2d69953b4eafe6978deae14c1, type: 3}
     - target: {fileID: 8541846193267628254, guid: 803555b22e492654aae21697038742d6, type: 3}
       propertyPath: m_Name
-      value: Strawberry (2)
+      value: Strawberry
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1891,7 +1891,7 @@ PrefabInstance:
       objectReference: {fileID: 1140366483317493952, guid: 5f7983736005e784f993dc8a9ee87184, type: 3}
     - target: {fileID: 385476160205441103, guid: 385b9146dd0e3db43a62f00870690b12, type: 3}
       propertyPath: m_Name
-      value: Cherry (2)
+      value: Cherry
       objectReference: {fileID: 0}
     - target: {fileID: 1644615044837510069, guid: 385b9146dd0e3db43a62f00870690b12, type: 3}
       propertyPath: m_Points.m_Paths.Array.size
@@ -2221,7 +2221,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6826980913168437143, guid: f65c583b3e653f54d859e16d5d281757, type: 3}
       propertyPath: m_Name
-      value: Mushroom (3)
+      value: Mushroom
       objectReference: {fileID: 0}
     - target: {fileID: 6903122016463296255, guid: f65c583b3e653f54d859e16d5d281757, type: 3}
       propertyPath: m_Size.x
@@ -3714,7 +3714,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6826980913168437143, guid: f65c583b3e653f54d859e16d5d281757, type: 3}
       propertyPath: m_Name
-      value: Mushroom (1)
+      value: Mushroom
       objectReference: {fileID: 0}
     - target: {fileID: 6903122016463296255, guid: f65c583b3e653f54d859e16d5d281757, type: 3}
       propertyPath: m_Size.x
@@ -5341,7 +5341,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4732007116204496668, guid: d2b0dfae18754a14b812d2950189a1b5, type: 3}
       propertyPath: m_Name
-      value: Apple (5)
+      value: Apple
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5367,7 +5367,7 @@ PrefabInstance:
       objectReference: {fileID: 1140366483317493952, guid: 5f7983736005e784f993dc8a9ee87184, type: 3}
     - target: {fileID: 385476160205441103, guid: 385b9146dd0e3db43a62f00870690b12, type: 3}
       propertyPath: m_Name
-      value: Cherry (3)
+      value: Cherry
       objectReference: {fileID: 0}
     - target: {fileID: 1644615044837510069, guid: 385b9146dd0e3db43a62f00870690b12, type: 3}
       propertyPath: m_Points.m_Paths.Array.size
@@ -5689,7 +5689,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4732007116204496668, guid: d2b0dfae18754a14b812d2950189a1b5, type: 3}
       propertyPath: m_Name
-      value: Apple (3)
+      value: Apple
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6414,7 +6414,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4732007116204496668, guid: d2b0dfae18754a14b812d2950189a1b5, type: 3}
       propertyPath: m_Name
-      value: Apple (2)
+      value: Apple
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6484,7 +6484,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4732007116204496668, guid: d2b0dfae18754a14b812d2950189a1b5, type: 3}
       propertyPath: m_Name
-      value: Apple (4)
+      value: Apple
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6884,7 +6884,7 @@ PrefabInstance:
       objectReference: {fileID: 1140366483317493952, guid: 5f7983736005e784f993dc8a9ee87184, type: 3}
     - target: {fileID: 385476160205441103, guid: 385b9146dd0e3db43a62f00870690b12, type: 3}
       propertyPath: m_Name
-      value: Cherry (1)
+      value: Cherry
       objectReference: {fileID: 0}
     - target: {fileID: 1644615044837510069, guid: 385b9146dd0e3db43a62f00870690b12, type: 3}
       propertyPath: m_Points.m_Paths.Array.size
@@ -7206,7 +7206,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4732007116204496668, guid: d2b0dfae18754a14b812d2950189a1b5, type: 3}
       propertyPath: m_Name
-      value: Apple (1)
+      value: Apple
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7276,7 +7276,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6826980913168437143, guid: f65c583b3e653f54d859e16d5d281757, type: 3}
       propertyPath: m_Name
-      value: Mushroom (4)
+      value: Mushroom
       objectReference: {fileID: 0}
     - target: {fileID: 6903122016463296255, guid: f65c583b3e653f54d859e16d5d281757, type: 3}
       propertyPath: m_Size.x
@@ -7672,7 +7672,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6826980913168437143, guid: f65c583b3e653f54d859e16d5d281757, type: 3}
       propertyPath: m_Name
-      value: Mushroom (2)
+      value: Mushroom
       objectReference: {fileID: 0}
     - target: {fileID: 6903122016463296255, guid: f65c583b3e653f54d859e16d5d281757, type: 3}
       propertyPath: m_Size.x
@@ -8085,7 +8085,7 @@ PrefabInstance:
       objectReference: {fileID: 7726149201764250942, guid: 91332be2d69953b4eafe6978deae14c1, type: 3}
     - target: {fileID: 8541846193267628254, guid: 803555b22e492654aae21697038742d6, type: 3}
       propertyPath: m_Name
-      value: Strawberry (3)
+      value: Strawberry
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
