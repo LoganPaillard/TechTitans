@@ -1013,9 +1013,6 @@ MonoBehaviour:
   sceneChanging: 0
   scoreText: {fileID: 0}
   score: 0
-  scoreSpring: 0
-  scoreSummer: 0
-  scoreAutumn: 0
   endTime: 0
   timeLimit: 90
   timerCircleImage: {fileID: 0}
