@@ -11,11 +11,13 @@ public class Entity : MonoBehaviour
 
     protected PressGesture pressGesture;
     protected SpriteRenderer sprite;
+    private PolygonCollider2D polygonCollider;
 
     protected virtual void Awake()
     {
        pressGesture = GetComponent<PressGesture>();
        sprite = GetComponent<SpriteRenderer>();
+       polygonCollider = GetComponent<PolygonCollider2D>();
     }
 
     protected virtual void OnEnable()
@@ -50,10 +52,19 @@ public class Entity : MonoBehaviour
         if (!sprite.enabled) yield break;
         sprite.enabled = false;
 
+        if(polygonCollider != null)
+        {
+            polygonCollider.enabled = false;
+        }
+
         GameManager.Instance.AddScore(score);
         yield return new WaitForSeconds(respawnTime);
 
         sprite.enabled = true;
+        if(polygonCollider != null)
+        {
+            polygonCollider.enabled = true;
+        }
         respawnEffect();
         StartCoroutine(objectTimer());
     }

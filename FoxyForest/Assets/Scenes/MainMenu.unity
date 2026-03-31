@@ -1014,7 +1014,7 @@ MonoBehaviour:
   scoreText: {fileID: 0}
   score: 0
   endTime: 0
-  timeLimit: 90
+  timeLimit: 30
   timerCircleImage: {fileID: 0}
   dayNightController: {fileID: 619394803}
 --- !u!4 &1560043920

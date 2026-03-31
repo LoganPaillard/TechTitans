@@ -3,6 +3,7 @@ using TouchScript.Gestures;
 
 public class Skunk: Animal
 {
+    [SerializeField] private GameObject stinkCloudPrefab;
     private Animator animator;
     private TapGesture tapGesture;
 
@@ -36,13 +37,43 @@ public class Skunk: Animal
         }
     }
 
-    private void OnTapped(object sender, System.EventArgs e)
-    {
+    // private void OnTapped(object sender, System.EventArgs e)
+    // {
       
-        skunkIsWalking = false;
-        animator.SetTrigger("skunkIsTapped");
+    //     skunkIsWalking = false;
+    //     animator.SetTrigger("skunkIsTapped");
 
-        PressedHandler(sender, e);  
+    //     PressedHandler(sender, e);  
 
+    // }
+
+    protected override void PressedHandler(object sender, System.EventArgs e)
+    {
+        if (sprite != null && sprite.enabled)
+        {
+            skunkIsWalking = false;
+            if (animator != null) {
+                animator.SetTrigger("skunkIsTapped");
+            }
+            StinkCloud();
+            base.PressedHandler(sender, e);  
+        }
+    }
+
+    protected override void respawnEffect()
+    {
+        base.respawnEffect();
+        skunkIsWalking = true;
+    }
+
+    private void StinkCloud()
+    {
+        // Implement the logic to create a stink cloud effect here
+        Debug.Log("Skunk released a stink cloud!");
+        if (stinkCloudPrefab != null)
+        {
+            GameObject cloud = Instantiate(stinkCloudPrefab, transform.position, Quaternion.identity);
+            Destroy(cloud, 2f); // Destroy the cloud after 2 seconds
+        }
     }
 }
