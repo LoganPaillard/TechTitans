@@ -9,8 +9,11 @@ public class EndScreen : MonoBehaviour
 {
     public GameObject scoresContainer;
     public GameObject itemScoresContainer;
+    public GameObject starsContainer;
+    public Sprite[] starSprites;
     private Dictionary<string, EndScore> seasonScores = new();
     private Dictionary<string, ItemScore> itemScores = new();
+    private Dictionary<string, Star> stars = new();
     private float maxUpdateDuration = 3f;
    
     private void Awake()
@@ -23,6 +26,12 @@ public class EndScreen : MonoBehaviour
         foreach (var itemScore in itemScoresContainer.GetComponentsInChildren<ItemScore>())
         {
             itemScores[itemScore.gameObject.name] = itemScore;
+        }
+
+        foreach (var star in starsContainer.GetComponentsInChildren<Star>())
+        {
+            star.starIcon.sprite = starSprites[0];
+            stars[star.gameObject.name] = star;
         }
     }
 
@@ -61,6 +70,11 @@ public class EndScreen : MonoBehaviour
             endScore.scoreText.text = $"{score}";
 
             yield return null;
+        }
+
+        if (scoreValue > 1000)
+        {
+            stars[sceneId.ToString()].starIcon.sprite = starSprites[1];
         }
     }
 
