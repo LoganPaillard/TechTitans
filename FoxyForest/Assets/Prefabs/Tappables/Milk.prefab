@@ -150,6 +150,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreTextPrefab: {fileID: 2384387212774678913, guid: cd64766438d4fd94c8c5ccd845081935, type: 3}
+  useRandomSpawnPoint: 1
+  spawnRadius: 0.5
 --- !u!60 &5773544938943075493
 PolygonCollider2D:
   m_ObjectHideFlags: 0

@@ -13,11 +13,19 @@ public class Entity : MonoBehaviour
     protected SpriteRenderer sprite;
     private PolygonCollider2D polygonCollider;
 
+    [Header("Spawn Settings")]
+    [SerializeField] protected bool useRandomSpawnPoint = true;
+    [SerializeField] protected float spawnRadius = 0.5f;
+    private Vector3 initialPosition;
+
     protected virtual void Awake()
     {
        pressGesture = GetComponent<PressGesture>();
        sprite = GetComponent<SpriteRenderer>();
        polygonCollider = GetComponent<PolygonCollider2D>();
+
+       initialPosition = transform.position;
+       if (useRandomSpawnPoint) RandomizeSpawnPosition();
     }
 
     protected virtual void OnEnable()
@@ -47,24 +55,27 @@ public class Entity : MonoBehaviour
         }
     }
 
+    protected void RandomizeSpawnPosition()
+    {
+        Vector2 randomCircle = Random.insideUnitCircle * spawnRadius;
+        transform.position = initialPosition + new Vector3(randomCircle.x, randomCircle.y, 0);
+    }
+
     private IEnumerator waitRespawn()
     {
         if (!sprite.enabled) yield break;
         sprite.enabled = false;
 
-        if(polygonCollider != null)
-        {
-            polygonCollider.enabled = false;
-        }
+        if(polygonCollider != null) polygonCollider.enabled = false;
 
         GameManager.Instance.AddScore(score);
         yield return new WaitForSeconds(respawnTime);
 
+        if (useRandomSpawnPoint) RandomizeSpawnPosition();
+
         sprite.enabled = true;
-        if(polygonCollider != null)
-        {
-            polygonCollider.enabled = true;
-        }
+        if(polygonCollider != null) polygonCollider.enabled = true;
+
         respawnEffect();
         StartCoroutine(objectTimer());
     }

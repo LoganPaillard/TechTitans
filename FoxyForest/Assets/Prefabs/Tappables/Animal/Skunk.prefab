@@ -274,6 +274,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreTextPrefab: {fileID: 2384387212774678913, guid: cd64766438d4fd94c8c5ccd845081935, type: 3}
+  useRandomSpawnPoint: 0
+  spawnRadius: 2
+  stinkCloudPrefab: {fileID: 0}
   speed: 1
   leftBound: -10
   rightBound: 10
