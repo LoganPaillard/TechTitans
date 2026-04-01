@@ -175,7 +175,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.49, y: 1.87}
+    oldSize: {x: 2.49, y: 3.1}
     newSize: {x: 2.49, y: 1.87}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -255,3 +255,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreTextPrefab: {fileID: 2384387212774678913, guid: cd64766438d4fd94c8c5ccd845081935, type: 3}
+  useRandomSpawnPoint: 0
+  spawnRadius: 2
