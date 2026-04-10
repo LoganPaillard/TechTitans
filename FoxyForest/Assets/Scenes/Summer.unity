@@ -732,7 +732,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2962103582840629753, guid: cbf852406a5349541a0afd2b593f2712, type: 3}
       propertyPath: m_Name
-      value: Plum (1)
+      value: Plum
       objectReference: {fileID: 0}
     - target: {fileID: 4909466998257971641, guid: cbf852406a5349541a0afd2b593f2712, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1318,7 +1318,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5155509973850007302, guid: c9d2e41a9b93c814888806d31653dad7, type: 3}
       propertyPath: m_Name
-      value: Acorn (2)
+      value: Acorn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4174,7 +4174,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5155509973850007302, guid: c9d2e41a9b93c814888806d31653dad7, type: 3}
       propertyPath: m_Name
-      value: Acorn (1)
+      value: Acorn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6796,7 +6796,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4732007116204496668, guid: d2b0dfae18754a14b812d2950189a1b5, type: 3}
       propertyPath: m_Name
-      value: Apple (2)
+      value: Apple
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8770,7 +8770,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4732007116204496668, guid: d2b0dfae18754a14b812d2950189a1b5, type: 3}
       propertyPath: m_Name
-      value: Apple (1)
+      value: Apple
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
