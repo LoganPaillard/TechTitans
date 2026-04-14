@@ -15,6 +15,7 @@ public class EndScreen : MonoBehaviour
     private Dictionary<string, ItemScore> itemScores = new();
     private Dictionary<string, Star> stars = new();
     private float maxUpdateDuration = 3f;
+    private int scoreForStar = 700;
    
     private void Awake()
     {
@@ -72,7 +73,7 @@ public class EndScreen : MonoBehaviour
             yield return null;
         }
 
-        if (scoreValue > 1000)
+        if (scoreValue >= scoreForStar)
         {
             stars[sceneId.ToString()].starIcon.sprite = starSprites[1];
         }

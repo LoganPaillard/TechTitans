@@ -6623,7 +6623,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1676412354612209734, guid: 80d0ef40b46951a4eb7d30ef97c5a5f5, type: 3}
       propertyPath: m_Name
-      value: Corn (1)
+      value: Corn
       objectReference: {fileID: 0}
     - target: {fileID: 3918157146317485909, guid: 80d0ef40b46951a4eb7d30ef97c5a5f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6685,7 +6685,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1676412354612209734, guid: 80d0ef40b46951a4eb7d30ef97c5a5f5, type: 3}
       propertyPath: m_Name
-      value: Corn (2)
+      value: Corn
       objectReference: {fileID: 0}
     - target: {fileID: 3918157146317485909, guid: 80d0ef40b46951a4eb7d30ef97c5a5f5, type: 3}
       propertyPath: m_LocalPosition.x
