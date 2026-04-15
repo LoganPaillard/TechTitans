@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TMP Color Gradient
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TMP_ColorGradient
   colorMode: 2
-  topLeft: {r: 1, g: 1, b: 1, a: 1}
-  topRight: {r: 1, g: 1, b: 1, a: 1}
-  bottomLeft: {r: 0.6431373, g: 0.6431373, b: 0.6431373, a: 1}
-  bottomRight: {r: 0.6431373, g: 0.6431373, b: 0.6431373, a: 1}
+  topLeft: {r: 0.9643218, g: 0.96981126, b: 0.96438354, a: 1}
+  topRight: {r: 0.9643218, g: 0.96981126, b: 0.96438354, a: 1}
+  bottomLeft: {r: 0.9643218, g: 0.96981126, b: 0.96438354, a: 1}
+  bottomRight: {r: 0.9643218, g: 0.96981126, b: 0.96438354, a: 1}
