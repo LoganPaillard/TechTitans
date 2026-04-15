@@ -129,7 +129,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.47, y: 2.43}
+    oldSize: {x: 2.41, y: 2.41}
     newSize: {x: 2.41, y: 2.38}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -274,9 +274,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreTextPrefab: {fileID: 2384387212774678913, guid: cd64766438d4fd94c8c5ccd845081935, type: 3}
+  _score: -20
+  _respawnTimeUpper: 4
+  _respawnTimeLower: 2
   useRandomSpawnPoint: 0
   spawnRadius: 2
-  stinkCloudPrefab: {fileID: 0}
+  stinkCloudPrefab: {fileID: 6582956473203740702, guid: 51d475c774052ee448a14219a34e2aaa, type: 3}
   speed: 1
   leftBound: -10
   rightBound: 10

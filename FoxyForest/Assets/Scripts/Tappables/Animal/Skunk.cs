@@ -12,8 +12,6 @@ public class Skunk: Animal
     public float speed = 1f;
     public float leftBound = -10f;
     public float rightBound = 10f;
-    public override int score => -50;
-    public override float respawnTime => Random.Range(1f, 3f);
 
 
     private void Awake()
@@ -37,16 +35,6 @@ public class Skunk: Animal
         }
     }
 
-    // private void OnTapped(object sender, System.EventArgs e)
-    // {
-      
-    //     skunkIsWalking = false;
-    //     animator.SetTrigger("skunkIsTapped");
-
-    //     PressedHandler(sender, e);  
-
-    // }
-
     protected override void PressedHandler(object sender, System.EventArgs e)
     {
         if (sprite != null && sprite.enabled)
@@ -67,13 +55,33 @@ public class Skunk: Animal
     }
 
     private void StinkCloud()
+{
+    if (stinkCloudPrefab != null)
     {
-        // Implement the logic to create a stink cloud effect here
-        Debug.Log("Skunk released a stink cloud!");
-        if (stinkCloudPrefab != null)
-        {
-            GameObject cloud = Instantiate(stinkCloudPrefab, transform.position, Quaternion.identity);
-            Destroy(cloud, 2f); // Destroy the cloud after 2 seconds
-        }
+        Quaternion upsideDownRotation = Quaternion.Euler(0, 0, 0);
+        GameObject cloud = Instantiate(stinkCloudPrefab, transform.position, upsideDownRotation);
+        
+        // Start the growth process
+        StartCoroutine(GrowAndDestroy(cloud, 2f));
     }
+}
+
+private System.Collections.IEnumerator GrowAndDestroy(GameObject cloud, float duration)
+{
+    float elapsed = 0f;
+    Vector3 initialScale = new Vector3(0.1f, 0.1f, 1f); // Start small
+    Vector3 targetScale = new Vector3(1.5f, 1.5f, 1f);  // End size
+
+    cloud.transform.localScale = initialScale;
+
+    while (elapsed < duration)
+    {
+        // Smoothly transition the scale over time
+        cloud.transform.localScale = Vector3.Lerp(initialScale, targetScale, elapsed / duration);
+        elapsed += Time.deltaTime;
+        yield return null; // Wait for the next frame
+    }
+
+    Destroy(cloud);
+}
 }

@@ -16,6 +16,19 @@ public class FallingEntity : Fruit
     protected Vector3 _spawnPosition;
     protected bool _isFalling = false;
 
+    [SerializeField] public int fallScoreMultiplier = 2;
+
+    public override int score 
+    {
+        get 
+        {
+            if (_isFalling)
+            {
+                return base.score * fallScoreMultiplier;
+            }
+            return base.score;
+        }
+    }
     protected override void Awake()
     {
         base.Awake();

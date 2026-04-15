@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviour
             case "MainMenu":
             {
                 isGameRunning = false;
-                MusicManager.Instance.PlayMusic(MusicID.Spring);
+                MusicManager.Instance.PlayMusic(MusicID.Summer);
                 Debug.Log("Main Menu Loaded.");
                 break;
             }

@@ -6,12 +6,17 @@ public class Entity : MonoBehaviour
 {
     [SerializeField] public GameObject scoreTextPrefab;
 
-    public virtual int score => 0;
-    public virtual float respawnTime => Random.Range(1f, 3f);
-
     protected PressGesture pressGesture;
     protected SpriteRenderer sprite;
     private PolygonCollider2D polygonCollider;
+
+    [Header("Entity Settings")]
+    [SerializeField] private int _score = 0;
+    [SerializeField] private float _respawnTimeUpper = 3f;
+    [SerializeField] private float _respawnTimeLower = 1f;
+
+    public virtual int score => _score;
+    public virtual float respawnTime => Random.Range(_respawnTimeLower, _respawnTimeUpper);
 
     [Header("Spawn Settings")]
     [SerializeField] protected bool useRandomSpawnPoint = true;
