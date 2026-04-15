@@ -12,8 +12,6 @@ public class Skunk: Animal
     public float speed = 1f;
     public float leftBound = -10f;
     public float rightBound = 10f;
-    public override int score => -50;
-    public override float respawnTime => Random.Range(1f, 3f);
 
 
     private void Awake()

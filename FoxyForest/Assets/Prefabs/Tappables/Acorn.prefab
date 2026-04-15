@@ -150,6 +150,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreTextPrefab: {fileID: 2384387212774678913, guid: cd64766438d4fd94c8c5ccd845081935, type: 3}
+  _score: 10
+  _respawnTimeUpper: 10
+  _respawnTimeLower: 5
   useRandomSpawnPoint: 1
   spawnRadius: 0.5
   growDuration: 0.8
@@ -160,6 +163,7 @@ MonoBehaviour:
   shakeDuration: 0.5
   shakeMagnitude: 0.1
   shakeSpeed: 20
+  fallScoreMultiplier: 2
 --- !u!60 &7700206798941131214
 PolygonCollider2D:
   m_ObjectHideFlags: 0

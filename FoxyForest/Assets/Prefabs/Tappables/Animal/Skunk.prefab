@@ -274,6 +274,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreTextPrefab: {fileID: 2384387212774678913, guid: cd64766438d4fd94c8c5ccd845081935, type: 3}
+  _score: -20
+  _respawnTimeUpper: 4
+  _respawnTimeLower: 2
   useRandomSpawnPoint: 0
   spawnRadius: 2
   stinkCloudPrefab: {fileID: 6582956473203740702, guid: 51d475c774052ee448a14219a34e2aaa, type: 3}
