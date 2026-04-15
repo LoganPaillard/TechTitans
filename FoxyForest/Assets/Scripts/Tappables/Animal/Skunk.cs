@@ -60,7 +60,7 @@ public class Skunk: Animal
 {
     if (stinkCloudPrefab != null)
     {
-        Quaternion upsideDownRotation = Quaternion.Euler(0, 0, 90f);
+        Quaternion upsideDownRotation = Quaternion.Euler(0, 0, 0);
         GameObject cloud = Instantiate(stinkCloudPrefab, transform.position, upsideDownRotation);
         
         // Start the growth process
