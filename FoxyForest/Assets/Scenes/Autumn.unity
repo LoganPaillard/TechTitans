@@ -5798,11 +5798,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4910587102865354742, guid: 1a6311f48ab88624882ded0e3b758d77, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.67984873
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4910587102865354742, guid: 1a6311f48ab88624882ded0e3b758d77, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5345714
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4910587102865354742, guid: 1a6311f48ab88624882ded0e3b758d77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6367,6 +6367,9 @@ MonoBehaviour:
   masterToggle: {fileID: 0}
   musicToggle: {fileID: 0}
   sfxToggle: {fileID: 0}
+  playButton: {fileID: 0}
+  creditsButton: {fileID: 0}
+  creditsPanel: {fileID: 0}
 --- !u!114 &1466936431
 MonoBehaviour:
   m_ObjectHideFlags: 0
