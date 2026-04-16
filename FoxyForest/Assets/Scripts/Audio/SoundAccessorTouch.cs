@@ -5,10 +5,10 @@ using UnityEngine.UI;
 public class SoundAccessorTouch : MonoBehaviour
 {
     [SerializeField]
-    private SoundID hoverSound;
+    private SoundID hoverSound = SoundID.Hover;
     
     [SerializeField]
-    private SoundID clickSound;
+    private SoundID clickSound = SoundID.Click;
 
     private PressGesture pressGesture;
 
@@ -33,11 +33,11 @@ public class SoundAccessorTouch : MonoBehaviour
         
         if (sprite != null)
         {
-            if (!sprite.enabled) return;
-            SoundManager.Instance.PlaySound2D(hoverSound);
+            //if (!sprite.enabled) return;
+            SoundManager.Instance.PlaySound2D(clickSound);
         }
         else {
-            SoundManager.Instance.PlaySound2D(clickSound);
+            SoundManager.Instance.PlaySound2D(hoverSound);
         }
     }
 }
