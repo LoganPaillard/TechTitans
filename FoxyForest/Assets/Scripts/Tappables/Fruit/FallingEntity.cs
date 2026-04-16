@@ -8,6 +8,7 @@ public class FallingEntity : Fruit
     public float fallPositionLower = -4f;
     private float fallPosition;
     public float fallDuration = 1f;
+    [SerializeField] public int fallScoreMultiplier = 2;
 
     [Header("Shake Settings")]
     public float shakeDuration = 0.5f;
@@ -15,8 +16,6 @@ public class FallingEntity : Fruit
     public float shakeSpeed = 20f;
     protected Vector3 _spawnPosition;
     protected bool _isFalling = false;
-
-    [SerializeField] public int fallScoreMultiplier = 2;
 
     public override int score 
     {

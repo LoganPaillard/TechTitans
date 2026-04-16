@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 5064853953487892359}
   - component: {fileID: 5475138564812771323}
   - component: {fileID: 3079271454242544405}
-  - component: {fileID: 4215369855496428272}
   - component: {fileID: 4982892755080911117}
+  - component: {fileID: 8061075993972280014}
   m_Layer: 0
   m_Name: Plum
   m_TagString: Untagged
@@ -137,7 +137,34 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   ignoreChildren: 0
---- !u!60 &4215369855496428272
+--- !u!114 &4982892755080911117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2962103582840629753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 143eea6e7e6a40a4582e7d5aac843e61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreTextPrefab: {fileID: 2384387212774678913, guid: cd64766438d4fd94c8c5ccd845081935, type: 3}
+  _score: 11
+  _respawnTimeUpper: 8
+  _respawnTimeLower: 4
+  useRandomSpawnPoint: 1
+  spawnRadius: 0.5
+  growDuration: 0.8
+  finalScale: {x: 1, y: 1, z: 1}
+  fallPositionUpper: -2
+  fallPositionLower: -4
+  fallDuration: 1
+  shakeDuration: 0.5
+  shakeMagnitude: 0.1
+  shakeSpeed: 20
+  fallScoreMultiplier: 2
+--- !u!60 &8061075993972280014
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -183,63 +210,17 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 1.4412695, y: -0.5125611}
-      - {x: 1.4412695, y: -0.11705331}
-      - {x: 1.5361915, y: 0.19935292}
-      - {x: 1.5361915, y: 0.37337634}
-      - {x: 1.4887305, y: 0.42083728}
-      - {x: 1.2988868, y: 0.38919666}
-      - {x: 1.1248634, y: 0.42083728}
-      - {x: 0.66607434, y: 0.658142}
-      - {x: 0.20728528, y: 0.64232165}
-      - {x: -0.014199077, y: 0.78470445}
-      - {x: -0.1882225, y: 1.1011107}
-      - {x: -0.26732406, y: 1.1643919}
-      - {x: -0.39388654, y: 1.1643919}
-      - {x: -0.5046287, y: 1.0378294}
-      - {x: -0.36224592, y: 0.8954466}
-      - {x: -0.85267556, y: 0.87962633}
-      - {x: -1.1058005, y: 0.7530638}
-      - {x: -1.3589256, y: 0.51575917}
-      - {x: -1.485488, y: 0.27845448}
-      - {x: -1.5171287, y: 0.10443105}
-      - {x: -1.5171287, y: -0.21197517}
-      - {x: -1.4063865, y: -0.48092046}
-      - {x: -1.1849021, y: -0.68658453}
-      - {x: -0.75775373, y: -0.8922486}
-      - {x: -0.56790996, y: -0.9080689}
-      - {x: -0.36224592, y: -0.84478766}
-      - {x: -0.21986313, y: -1.0029907}
-      - {x: 0.049082167, y: -1.1611938}
-      - {x: 0.5395118, y: -1.1611938}
-      - {x: 0.9191993, y: -1.1137329}
-      - {x: 1.0615821, y: -1.0188111}
-      - {x: 1.2988868, y: -0.7656861}
+    - - {x: 0.39499998, y: 0.11}
+      - {x: 0.345, y: 0.13}
+      - {x: 0.16499999, y: 0.17999999}
+      - {x: -0.015, y: 0.29}
+      - {x: -0.195, y: 0.29}
+      - {x: -0.39499998, y: 0.16}
+      - {x: -0.39499998, y: -0.13}
+      - {x: -0.325, y: -0.21}
+      - {x: -0.035, y: -0.29}
+      - {x: 0.24499999, y: -0.29}
+      - {x: 0.345, y: -0.22}
+      - {x: 0.385, y: -0.14}
+      - {x: 0.39499998, y: -0.099999994}
   m_UseDelaunayMesh: 0
---- !u!114 &4982892755080911117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2962103582840629753}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 143eea6e7e6a40a4582e7d5aac843e61, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreTextPrefab: {fileID: 2384387212774678913, guid: cd64766438d4fd94c8c5ccd845081935, type: 3}
-  _score: 11
-  _respawnTimeUpper: 8
-  _respawnTimeLower: 4
-  useRandomSpawnPoint: 1
-  spawnRadius: 0.5
-  growDuration: 0.8
-  finalScale: {x: 1, y: 1, z: 1}
-  fallPositionUpper: -2
-  fallPositionLower: -4
-  fallDuration: 1
-  shakeDuration: 0.5
-  shakeMagnitude: 0.1
-  shakeSpeed: 20
-  fallScoreMultiplier: 2
