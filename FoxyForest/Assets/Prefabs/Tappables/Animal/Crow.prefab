@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5818793001714770453}
   - component: {fileID: 7924092373924441291}
-  - component: {fileID: 2250259883638219465}
   - component: {fileID: 3856464382118791203}
   - component: {fileID: 1939094828557906631}
   - component: {fileID: 1991982595349385434}
+  - component: {fileID: -193106405329788629}
   m_Layer: 0
   m_Name: Crow
   m_TagString: Untagged
@@ -91,20 +91,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2250259883638219465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 770378571933588193}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e36f69cb7d884545b33dc4e5ef27b22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverSound: 1
-  clickSound: 0
 --- !u!114 &3856464382118791203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -260,3 +246,15 @@ MonoBehaviour:
   _respawnTimeLower: 4
   useRandomSpawnPoint: 0
   spawnRadius: 2
+--- !u!114 &-193106405329788629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770378571933588193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1fe1f02ca84be241bccf0687d2fff45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

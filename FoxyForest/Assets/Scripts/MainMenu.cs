@@ -8,6 +8,9 @@ public class MainMenu : MonoBehaviour
     public Toggle masterToggle;
     public Toggle musicToggle;
     public Toggle sfxToggle;
+    public GameObject playButton;
+    public GameObject creditsButton;
+    public GameObject creditsPanel;
 
     private bool isPlaying = false;
 
@@ -26,6 +29,27 @@ public class MainMenu : MonoBehaviour
     public void Menu() {
         isPlaying = false;
         LevelManager.Instance.LoadScene(SceneID.MainMenu, TransitionID.CrossFade);
+    }
+
+    public void OpenCredits()
+    {
+        if (creditsPanel != null)
+        { 
+            creditsPanel.SetActive(true);
+            playButton.SetActive(false);
+            creditsButton.SetActive(false);
+        }
+
+    }
+
+    public void CloseCredits()
+    {
+        if (creditsPanel != null)  
+        {
+            creditsPanel.SetActive(false);
+            playButton.SetActive(true);
+            creditsButton.SetActive(true);
+        }
     }
 
     public void Quit()
