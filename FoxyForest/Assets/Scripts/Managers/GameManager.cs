@@ -1,8 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 using TMPro;
-using System.Collections;
 using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
@@ -15,12 +13,6 @@ public class GameManager : MonoBehaviour
     public int score = 0;
     public Dictionary<SceneID, int> scoreSeasons = new();
     public Dictionary<string, int> countItems = new();
-
-    [Header("Timer")]
-    public float endTime;
-    public float timeLimit = 5f;
-    public Image timerCircleImage;
-    public DayNightController dayNightController;
 
     void Awake()
     {
@@ -88,27 +80,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (!isGameRunning || timerCircleImage == null) return;
-
-        if (Time.time < endTime)
-        {
-            timerCircleImage.fillAmount = (endTime - Time.time) / timeLimit;
-            dayNightController.UpdateLight(1 - timerCircleImage.fillAmount);
-        }
-        else
-        {
-            nextLevel();
-        }
-    }
-
     public void StartGame(Scene scene)
     {
         isGameRunning = true;
-        endTime = Time.time + timeLimit;
-        dayNightController.UpdateLight(0);
         Debug.Log(scene.name + " Loaded.");
     }
 
@@ -126,7 +100,6 @@ public class GameManager : MonoBehaviour
         scoreSeasons.Clear();
         countItems.Clear();
         ZeroScore();
-        dayNightController.UpdateLight(0.5f);
         Debug.Log("Game Reset.");
     }
 

@@ -32,6 +32,7 @@ public class EndScreen : MonoBehaviour
         foreach (var star in starsContainer.GetComponentsInChildren<Star>())
         {
             star.starIcon.sprite = starSprites[0];
+            star.starIcon.fillAmount = 0f;
             stars[star.gameObject.name] = star;
         }
     }
@@ -52,7 +53,7 @@ public class EndScreen : MonoBehaviour
 
     private IEnumerator SetScoresCoroutine(SceneID sceneId, int scoreValue)
     {
-        float score = 0;
+        float score = 0f;
         float endTime = Time.time + maxUpdateDuration;
         EndScore endScore = seasonScores[sceneId.ToString()];
         
@@ -67,16 +68,27 @@ public class EndScreen : MonoBehaviour
 
         while (Time.time < endTime)
         {
-            score = Mathf.CeilToInt(Mathf.Lerp(score, scoreValue, 0.1f));
-            endScore.scoreText.text = $"{score}";
+            score = Mathf.Lerp(score, scoreValue, 0.1f);
+            endScore.scoreText.text = $"{Mathf.CeilToInt(score)}";
+            UpdateStarFill(sceneId, score);
 
             yield return null;
         }
+    }
 
-        if (scoreValue >= scoreForStar)
+    private void UpdateStarFill(SceneID sceneId, float score)
+    {
+        Star star = stars[sceneId.ToString()];
+
+        if (score <= 0f)
         {
-            stars[sceneId.ToString()].starIcon.sprite = starSprites[1];
+            star.starIcon.sprite = starSprites[0];
+            star.starIcon.fillAmount = 0f;
+            return;
         }
+
+        star.starIcon.sprite = starSprites[1];
+        star.starIcon.fillAmount = Mathf.Clamp01(score / scoreForStar);
     }
 
     private void SetItemScores()
