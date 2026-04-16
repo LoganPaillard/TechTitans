@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Linq;
+using TMPro;
 
 public enum SceneID {
     MainMenu,
@@ -24,9 +25,8 @@ public class LevelManager : MonoBehaviour
     public GameObject touchBlocker;
     public Slider progressBar;
     public GameObject transitionsContainer;
- 
+    public TextMeshProUGUI seasonMessage;
     private SceneTransition[] transitions;
-    private readonly WaitForSeconds _waitHalfSec = new(0.5f);
  
     private void Awake()
     {
@@ -61,7 +61,8 @@ public class LevelManager : MonoBehaviour
         scene.allowSceneActivation = false;
  
         yield return transition.AnimateTransitionIn();
- 
+
+        GetSeasonMessage(sceneID);
         progressBar.gameObject.SetActive(true);
  
         do
@@ -70,7 +71,7 @@ public class LevelManager : MonoBehaviour
             yield return null;
         } while (scene.progress < 0.9f);
  
-        yield return _waitHalfSec;
+        yield return new WaitForSeconds(2f);
  
         scene.allowSceneActivation = true;
  
@@ -79,5 +80,31 @@ public class LevelManager : MonoBehaviour
         yield return transition.AnimateTransitionOut();
 
         touchBlocker.SetActive(false);
+    }
+
+    private void GetSeasonMessage(SceneID sceneID)
+    {
+        switch (sceneID)
+        {
+            case SceneID.Spring:
+                seasonMessage.text = "Spring";
+                seasonMessage.color = new Color(0.5f, 1f, 0.5f);
+                break;
+            case SceneID.Summer:
+                seasonMessage.text = "Summer";
+                seasonMessage.color = new Color(1f, 0.85f, 0.5f);
+                break;
+            case SceneID.Autumn:
+                seasonMessage.text = "Autumn";
+                seasonMessage.color = new Color(1f, 0.5f, 0f);
+                break;
+            case SceneID.Winter:
+                seasonMessage.text = "Winter";
+                seasonMessage.color = new Color(0.5f, 0.5f, 1f);
+                break;
+            case SceneID.MainMenu:
+                seasonMessage.text = "";
+                break;
+        }
     }
 }
