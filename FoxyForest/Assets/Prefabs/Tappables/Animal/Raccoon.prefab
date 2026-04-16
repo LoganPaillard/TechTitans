@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4247574318691171002}
   - component: {fileID: 513599735902368560}
   - component: {fileID: 4519515448707291997}
-  - component: {fileID: 8058491723957228863}
   - component: {fileID: 1008228808054557779}
   - component: {fileID: 1684976191862460309}
+  - component: {fileID: 6483071639355135455}
   m_Layer: 0
   m_Name: Raccoon
   m_TagString: Untagged
@@ -211,20 +211,6 @@ PolygonCollider2D:
       - {x: -0.265, y: -0.71}
       - {x: -0.355, y: -0.71}
   m_UseDelaunayMesh: 0
---- !u!114 &8058491723957228863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3366411924092810791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e36f69cb7d884545b33dc4e5ef27b22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverSound: 1
-  clickSound: 0
 --- !u!114 &1008228808054557779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,3 +261,16 @@ MonoBehaviour:
   _respawnTimeLower: 2
   useRandomSpawnPoint: 0
   spawnRadius: 2
+--- !u!114 &6483071639355135455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3366411924092810791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1fe1f02ca84be241bccf0687d2fff45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  negativeSound: 2

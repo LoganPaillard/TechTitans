@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4910587102865354742}
   - component: {fileID: 5863848271396305421}
   - component: {fileID: 4203092816829031110}
-  - component: {fileID: 3761952515395074680}
   - component: {fileID: 1718862504651895160}
   - component: {fileID: 5923563104251021318}
+  - component: {fileID: 143521175925001786}
   m_Layer: 0
   m_Name: Skunk
   m_TagString: Untagged
@@ -215,20 +215,6 @@ PolygonCollider2D:
       - {x: -0.39499998, y: -1.09}
       - {x: -0.435, y: -1.05}
   m_UseDelaunayMesh: 0
---- !u!114 &3761952515395074680
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6308636335364196225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e36f69cb7d884545b33dc4e5ef27b22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverSound: 1
-  clickSound: 0
 --- !u!114 &1718862504651895160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,3 +269,16 @@ MonoBehaviour:
   speed: 1
   leftBound: -10
   rightBound: 10
+--- !u!114 &143521175925001786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6308636335364196225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1fe1f02ca84be241bccf0687d2fff45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  negativeSound: 2

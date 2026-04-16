@@ -1117,8 +1117,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 372384269
-  m_SortingLayer: 2
+  m_SortingLayerID: 417215013
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -7295899095015691490, guid: 258351bb9123dc0419af81746225314c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1596,7 +1596,7 @@ MonoBehaviour:
   summerTimer: {fileID: 1774544399}
   autumnTimer: {fileID: 225423738}
   dayNightController: {fileID: 1544952297}
-  timeLimit: 30
+  timeLimit: 10
   timerRoot: {fileID: 2065710878}
 --- !u!4 &861898991
 Transform:
@@ -2014,8 +2014,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 372384269
-  m_SortingLayer: 2
+  m_SortingLayerID: 417215013
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -7295899095015691490, guid: 258351bb9123dc0419af81746225314c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2289,8 +2289,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 372384269
-  m_SortingLayer: 2
+  m_SortingLayerID: 417215013
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -7295899095015691490, guid: 258351bb9123dc0419af81746225314c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2428,8 +2428,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 372384269
-  m_SortingLayer: 2
+  m_SortingLayerID: 417215013
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -7295899095015691490, guid: 258351bb9123dc0419af81746225314c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2907,8 +2907,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 372384269
-  m_SortingLayer: 2
+  m_SortingLayerID: 417215013
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -7295899095015691490, guid: 258351bb9123dc0419af81746225314c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3383,8 +3383,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 372384269
-  m_SortingLayer: 2
+  m_SortingLayerID: 417215013
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -7295899095015691490, guid: 258351bb9123dc0419af81746225314c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4558,6 +4558,10 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 9177245107935818095, guid: 2ff6100a230e11b4ab228124070bdaa4, type: 3}
+      propertyPath: soundEffects.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177245107935818095, guid: 2ff6100a230e11b4ab228124070bdaa4, type: 3}
       propertyPath: soundEffects.Array.data[0].groupID
       value: 1
       objectReference: {fileID: 0}
@@ -4565,6 +4569,30 @@ PrefabInstance:
       propertyPath: soundEffects.Array.data[1].groupID
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9177245107935818095, guid: 2ff6100a230e11b4ab228124070bdaa4, type: 3}
+      propertyPath: soundEffects.Array.data[2].groupID
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177245107935818095, guid: 2ff6100a230e11b4ab228124070bdaa4, type: 3}
+      propertyPath: soundEffects.Array.data[3].groupID
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177245107935818095, guid: 2ff6100a230e11b4ab228124070bdaa4, type: 3}
+      propertyPath: soundEffects.Array.data[2].clips.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177245107935818095, guid: 2ff6100a230e11b4ab228124070bdaa4, type: 3}
+      propertyPath: soundEffects.Array.data[3].clips.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177245107935818095, guid: 2ff6100a230e11b4ab228124070bdaa4, type: 3}
+      propertyPath: 'soundEffects.Array.data[2].clips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 26e49bd5d32b4d549a8dd33601cba4f9, type: 3}
+    - target: {fileID: 9177245107935818095, guid: 2ff6100a230e11b4ab228124070bdaa4, type: 3}
+      propertyPath: 'soundEffects.Array.data[3].clips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 26e49bd5d32b4d549a8dd33601cba4f9, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
