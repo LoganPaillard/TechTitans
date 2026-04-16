@@ -5,7 +5,6 @@ using UnityEngine.UI;
 public class MainMenu : MonoBehaviour
 {
     public AudioMixer audioMixer;
-    public Toggle masterToggle;
     public Toggle musicToggle;
     public Toggle sfxToggle;
     public GameObject playButton;
@@ -57,12 +56,6 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
-    public void setMasterVolume()
-    {
-        audioMixer.SetFloat("MasterVolume", masterToggle.isOn ? 0 : -80);
-        PlayerPrefs.SetInt("MasterVolume", masterToggle.isOn ? 1 : 0);
-    }
-
     public void setMusicVolume()
     {
         audioMixer.SetFloat("MusicVolume", musicToggle.isOn ? 0 : -80);
@@ -77,11 +70,9 @@ public class MainMenu : MonoBehaviour
 
     private void LoadVolume()
     {
-        masterToggle.isOn = PlayerPrefs.GetInt("MasterVolume", 1) == 1;
         musicToggle.isOn = PlayerPrefs.GetInt("MusicVolume", 1) == 1;
         sfxToggle.isOn = PlayerPrefs.GetInt("SFXVolume", 1) == 1;
 
-        setMasterVolume();
         setMusicVolume();
         setSFXVolume();
     }
