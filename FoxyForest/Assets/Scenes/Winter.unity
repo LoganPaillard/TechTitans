@@ -2503,8 +2503,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190335
-  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+    rgba: 4278714157
+  m_fontColor: {r: 0.1764706, g: 1, b: 0.02745098, a: 1}
   m_enableVertexGradient: 1
   m_colorMode: 2
   m_fontColorGradient:
@@ -4551,9 +4551,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu
   audioMixer: {fileID: 24100000, guid: 8da4e035e236dd546b0e5d9f8be96b55, type: 2}
-  masterToggle: {fileID: 0}
   musicToggle: {fileID: 0}
   sfxToggle: {fileID: 0}
+  playButton: {fileID: 0}
+  creditsButton: {fileID: 0}
+  creditsPanel: {fileID: 0}
 --- !u!114 &1466936431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5243,8 +5245,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190335
-  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+    rgba: 4294966784
+  m_fontColor: {r: 0, g: 0.99607843, b: 1, a: 1}
   m_enableVertexGradient: 1
   m_colorMode: 2
   m_fontColorGradient:
@@ -5822,8 +5824,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190335
-  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+    rgba: 4278223103
+  m_fontColor: {r: 1, g: 0.5019608, b: 0, a: 1}
   m_enableVertexGradient: 1
   m_colorMode: 2
   m_fontColorGradient:
