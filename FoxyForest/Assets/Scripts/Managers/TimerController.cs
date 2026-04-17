@@ -1,7 +1,7 @@
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using TMPro;
 
 public class TimerController : MonoBehaviour
 {
@@ -12,6 +12,7 @@ public class TimerController : MonoBehaviour
     public DayNightController dayNightController;
     public float timeLimit = 5f;
     public GameObject timerRoot;
+    public TextMeshProUGUI timeUpMessage;
 
     private Petal[] petals;
     private float endTime;
@@ -53,12 +54,17 @@ public class TimerController : MonoBehaviour
             timerRunning = false;
             dayNightController.UpdateLight(1f);
             petalCoroutine = null;
-            GameManager.Instance.nextLevel();
+            if (SceneManager.GetActiveScene().name != "Winter")
+                StartCoroutine(TimeUpSequence());
+            else
+                GameManager.Instance.nextLevel();
         }
     }
 
     private void OnLevelLoaded(Scene scene, LoadSceneMode mode)
     {
+        timeUpMessage.gameObject.SetActive(false);
+
         if (scene.name == "MainMenu")
         {
             SetTimerVisibility(false);
@@ -134,11 +140,18 @@ public class TimerController : MonoBehaviour
 
         foreach (var petal in petals)
         {
-            yield return new WaitForSeconds(interval);
-            if (petal != null && petal.icon != null)
+            float elapsed = 0f;
+            while (elapsed < interval)
             {
-                petal.icon.enabled = false;
+                elapsed += Time.deltaTime;
+                float t = Mathf.Clamp01(elapsed / interval);
+                float alpha = Mathf.Lerp(1f, 0f, t);
+                Color c = petal.icon.color;
+                c.a = alpha;
+                petal.icon.color = c;
+                yield return null;
             }
+            petal.icon.enabled = false;
         }
     }
 
@@ -151,6 +164,9 @@ public class TimerController : MonoBehaviour
             if (petal != null && petal.icon != null)
             {
                 petal.icon.enabled = enable;
+                Color c = petal.icon.color;
+                c.a = enable ? 1f : 0f;
+                petal.icon.color = c;
             }
         }
     }
@@ -160,6 +176,17 @@ public class TimerController : MonoBehaviour
         if (timerRoot != null)
         {
             timerRoot.SetActive(visible);
+        }
+    }
+
+    private IEnumerator TimeUpSequence()
+    {
+        if (timeUpMessage != null)
+        {
+            timeUpMessage.gameObject.SetActive(true);
+            LevelManager.Instance.touchBlocker.SetActive(true);
+            yield return new WaitForSeconds(2f);
+            GameManager.Instance.nextLevel();
         }
     }
 }

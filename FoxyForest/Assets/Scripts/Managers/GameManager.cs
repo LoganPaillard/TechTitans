@@ -13,7 +13,6 @@ public class GameManager : MonoBehaviour
     public int score = 0;
     public Dictionary<SceneID, int> scoreSeasons = new();
     public Dictionary<string, int> countItems = new();
-    public DayNightController dayNightController;
 
     void Awake()
     {
@@ -93,12 +92,12 @@ public class GameManager : MonoBehaviour
         Debug.Log("Game Over! Final Score: " + score);
         resetAll();
         LevelManager.Instance.LoadScene(SceneID.MainMenu, TransitionID.CrossFade);
-        dayNightController.UpdateLight(1f);
     }
 
     private void resetAll()
     {
         isGameRunning = false;
+        TimerController.Instance.dayNightController.UpdateLight(1f);
         scoreSeasons.Clear();
         countItems.Clear();
         ZeroScore();
@@ -124,7 +123,7 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        LevelManager.Instance.LoadScene(nextScene, TransitionID.SeasonWipe);
+        LevelManager.Instance.LoadScene(nextScene, TransitionID.CrossFade);
     }
 
     public void ZeroScore()

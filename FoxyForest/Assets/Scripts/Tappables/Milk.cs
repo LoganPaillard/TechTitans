@@ -1,5 +1,5 @@
 using UnityEngine;
 
-public class Milk: Entity
+public class Milk: FallingEntity
 {
 }
