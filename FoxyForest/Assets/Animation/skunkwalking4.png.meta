@@ -127,10 +127,10 @@ TextureImporter:
       name: skunkwalking4_0
       rect:
         serializedVersion: 2
-        x: 254
-        y: 502
-        width: 243
-        height: 243
+        x: 255
+        y: 503
+        width: 241
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,10 +149,10 @@ TextureImporter:
       name: skunkwalking4_1
       rect:
         serializedVersion: 2
-        x: 504
-        y: 505
-        width: 247
-        height: 240
+        x: 505
+        y: 506
+        width: 245
+        height: 238
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,10 +171,10 @@ TextureImporter:
       name: skunkwalking4_2
       rect:
         serializedVersion: 2
-        x: 754
-        y: 507
-        width: 246
-        height: 238
+        x: 755
+        y: 508
+        width: 245
+        height: 236
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,10 +193,10 @@ TextureImporter:
       name: skunkwalking4_3
       rect:
         serializedVersion: 2
-        x: 4
-        y: 255
-        width: 247
-        height: 240
+        x: 5
+        y: 256
+        width: 245
+        height: 238
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,10 +215,10 @@ TextureImporter:
       name: skunkwalking4_4
       rect:
         serializedVersion: 2
-        x: 254
-        y: 256
-        width: 247
-        height: 239
+        x: 255
+        y: 257
+        width: 245
+        height: 237
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,10 +237,10 @@ TextureImporter:
       name: skunkwalking4_5
       rect:
         serializedVersion: 2
-        x: 504
-        y: 256
-        width: 247
-        height: 239
+        x: 505
+        y: 257
+        width: 245
+        height: 237
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,10 +259,10 @@ TextureImporter:
       name: skunkwalking4_6
       rect:
         serializedVersion: 2
-        x: 754
-        y: 257
-        width: 246
-        height: 238
+        x: 755
+        y: 258
+        width: 245
+        height: 236
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +281,10 @@ TextureImporter:
       name: skunkwalking4_7
       rect:
         serializedVersion: 2
-        x: 4
-        y: 8
-        width: 247
-        height: 237
+        x: 5
+        y: 9
+        width: 245
+        height: 235
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,10 +303,10 @@ TextureImporter:
       name: skunkwalking4_8
       rect:
         serializedVersion: 2
-        x: 254
-        y: 10
-        width: 247
-        height: 235
+        x: 255
+        y: 11
+        width: 245
+        height: 233
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -325,7 +325,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ef4b36a9d9d414444a4e89522e92ca9f
     internalID: 0
     vertices: []
     indices: 
