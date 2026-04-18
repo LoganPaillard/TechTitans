@@ -56,13 +56,13 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
-    public void setMusicVolume()
+    public void SetMusicVolume()
     {
         audioMixer.SetFloat("MusicVolume", musicToggle.isOn ? 0 : -80);
         PlayerPrefs.SetInt("MusicVolume", musicToggle.isOn ? 1 : 0);
     }
 
-    public void setSFXVolume()
+    public void SetSFXVolume()
     {
         audioMixer.SetFloat("SFXVolume", sfxToggle.isOn ? 0 : -80);
         PlayerPrefs.SetInt("SFXVolume", sfxToggle.isOn ? 1 : 0);
@@ -73,13 +73,8 @@ public class MainMenu : MonoBehaviour
         musicToggle.isOn = PlayerPrefs.GetInt("MusicVolume", 1) == 1;
         sfxToggle.isOn = PlayerPrefs.GetInt("SFXVolume", 1) == 1;
 
-        setMusicVolume();
-        setSFXVolume();
-    }
-
-    public void togglePause()
-    {
-        GameManager.Instance.togglePause();
+        SetMusicVolume();
+        SetSFXVolume();
     }
 
     public void EndGame()

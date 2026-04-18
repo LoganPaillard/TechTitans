@@ -47,23 +47,26 @@ public class TimerController : MonoBehaviour
         if (Time.time < endTime)
         {
             float timeRemaining = (endTime - Time.time) / timeLimit;
-            dayNightController.UpdateLight(1f - timeRemaining);
+            if (SceneManager.GetActiveScene().name != "Winter")
+                dayNightController.UpdateLight(1f - timeRemaining);
         }
         else
         {
             timerRunning = false;
-            dayNightController.UpdateLight(1f);
             petalCoroutine = null;
             if (SceneManager.GetActiveScene().name != "Winter")
                 StartCoroutine(TimeUpSequence());
             else
-                GameManager.Instance.nextLevel();
+                GameManager.Instance.NextLevel();
         }
     }
 
     private void OnLevelLoaded(Scene scene, LoadSceneMode mode)
     {
         timeUpMessage.gameObject.SetActive(false);
+
+        if (scene.name == "MainMenu" || scene.name == "Winter")
+            dayNightController.UpdateLight(0.5f);
 
         if (scene.name == "MainMenu")
         {
@@ -185,8 +188,8 @@ public class TimerController : MonoBehaviour
         {
             timeUpMessage.gameObject.SetActive(true);
             LevelManager.Instance.touchBlocker.SetActive(true);
-            yield return new WaitForSeconds(2f);
-            GameManager.Instance.nextLevel();
+            yield return new WaitForSeconds(3f);
+            GameManager.Instance.NextLevel();
         }
     }
 }
