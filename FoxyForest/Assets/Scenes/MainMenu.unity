@@ -2101,7 +2101,7 @@ MonoBehaviour:
   summerTimer: {fileID: 1774544399}
   autumnTimer: {fileID: 225423738}
   dayNightController: {fileID: 1544952297}
-  timeLimit: 30
+  timeLimit: 95
   timerRoot: {fileID: 2065710878}
   timeUpMessage: {fileID: 1956399929}
 --- !u!4 &861898991
@@ -5274,7 +5274,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5568256780053273347, guid: 4077e0b0c8ed1564488e97f438ce4110, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: setMusicVolume
+      value: SetMusicVolume
       objectReference: {fileID: 0}
     - target: {fileID: 5568256780053273347, guid: 4077e0b0c8ed1564488e97f438ce4110, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -5342,7 +5342,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8081262643306226575, guid: 4077e0b0c8ed1564488e97f438ce4110, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: setSFXVolume
+      value: SetSFXVolume
       objectReference: {fileID: 0}
     - target: {fileID: 8081262643306226575, guid: 4077e0b0c8ed1564488e97f438ce4110, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName

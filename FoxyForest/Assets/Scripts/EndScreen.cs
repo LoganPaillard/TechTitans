@@ -7,6 +7,7 @@ using System.Collections.Generic;
 
 public class EndScreen : MonoBehaviour
 {
+    public int scoreForStar = 1500;
     public GameObject scoresContainer;
     public GameObject itemScoresContainer;
     public GameObject starsContainer;
@@ -15,7 +16,6 @@ public class EndScreen : MonoBehaviour
     private Dictionary<string, ItemScore> itemScores = new();
     private Dictionary<string, Star> stars = new();
     private float maxUpdateDuration = 3f;
-    private int scoreForStar = 1500;
    
     private void Awake()
     {

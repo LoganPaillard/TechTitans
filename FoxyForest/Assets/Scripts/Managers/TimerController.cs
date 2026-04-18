@@ -65,11 +65,9 @@ public class TimerController : MonoBehaviour
     {
         timeUpMessage.gameObject.SetActive(false);
 
-        if (scene.name == "MainMenu" || scene.name == "Winter")
-            dayNightController.UpdateLight(0.5f);
-
         if (scene.name == "MainMenu")
         {
+            dayNightController.UpdateLight(0.5f);
             SetTimerVisibility(false);
             StopTimer();
             ResetPetals(false);
@@ -86,7 +84,10 @@ public class TimerController : MonoBehaviour
     public void ResetTimer()
     {
         endTime = Time.time + timeLimit;
-        dayNightController.UpdateLight(0f);
+        if (SceneManager.GetActiveScene().name != "Winter")
+            dayNightController.UpdateLight(1f);
+        else
+            dayNightController.UpdateLight(0.5f);
         timerRunning = false;
     }
 
