@@ -10,6 +10,9 @@ public class MainMenu : MonoBehaviour
     public GameObject playButton;
     public GameObject creditsButton;
     public GameObject creditsPanel;
+    public GameObject settingsButton;
+    public GameObject settingsMenu;
+    public float autoCloseDelay = 15f;
 
     private bool isPlaying = false;
 
@@ -37,17 +40,45 @@ public class MainMenu : MonoBehaviour
             creditsPanel.SetActive(true);
             playButton.SetActive(false);
             creditsButton.SetActive(false);
+            settingsButton.SetActive(false);
+            Invoke("CloseCredits", autoCloseDelay);
         }
 
     }
 
     public void CloseCredits()
     {
+        CancelInvoke("CloseCredits");
         if (creditsPanel != null)  
         {
             creditsPanel.SetActive(false);
             playButton.SetActive(true);
             creditsButton.SetActive(true);
+            settingsButton.SetActive(true);
+        }
+    }
+
+    public void OpenSettings()
+    {
+        if (settingsMenu != null)
+        {
+            settingsMenu.SetActive(true);
+            playButton.SetActive(false);
+            creditsButton.SetActive(false);
+            settingsButton.SetActive(false);
+            Invoke("CloseSettings", autoCloseDelay);
+        }
+    }
+
+    public void CloseSettings()
+    {
+        CancelInvoke("CloseSettings");
+        if (settingsMenu != null)
+        {
+            settingsMenu.SetActive(false);
+            playButton.SetActive(true);
+            creditsButton.SetActive(true);
+            settingsButton.SetActive(true);
         }
     }
 
