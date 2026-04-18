@@ -46,7 +46,6 @@ public class GameManager : MonoBehaviour
             {
                 scoreSeasons.Clear();
                 countItems.Clear();
-                ZeroScore();
                 MusicManager.Instance.PlayMusic(MusicID.Spring);
                 StartGame(scene);
                 break;
@@ -54,7 +53,6 @@ public class GameManager : MonoBehaviour
             case "Summer":
             {
                 scoreSeasons[SceneID.Spring] = score;
-                ZeroScore();
                 MusicManager.Instance.PlayMusic(MusicID.Summer);
                 StartGame(scene);
                 break;
@@ -62,7 +60,6 @@ public class GameManager : MonoBehaviour
             case "Autumn":
             {
                 scoreSeasons[SceneID.Summer] = score;
-                ZeroScore();
                 MusicManager.Instance.PlayMusic(MusicID.Autumn);
                 StartGame(scene);
                 break;
@@ -70,7 +67,6 @@ public class GameManager : MonoBehaviour
             case "Winter":
             {
                 scoreSeasons[SceneID.Autumn] = score;
-                ZeroScore();
                 MusicManager.Instance.PlayMusic(MusicID.Spring);
                 StartGame(scene);
                 break;
@@ -83,28 +79,28 @@ public class GameManager : MonoBehaviour
     public void StartGame(Scene scene)
     {
         isGameRunning = true;
+        ZeroScore();
         Debug.Log(scene.name + " Loaded.");
     }
 
     public void EndGame()
     {
-        isGameRunning = false;
         Debug.Log("Game Over! Final Score: " + score);
-        resetAll();
+        ResetAll();
         LevelManager.Instance.LoadScene(SceneID.MainMenu, TransitionID.CrossFade);
     }
 
-    private void resetAll()
+    private void ResetAll()
     {
         isGameRunning = false;
-        TimerController.Instance.dayNightController.UpdateLight(1f);
+        TimerController.Instance.dayNightController.UpdateLight(0.5f);
         scoreSeasons.Clear();
         countItems.Clear();
         ZeroScore();
         Debug.Log("Game Reset.");
     }
 
-    public void nextLevel()
+    public void NextLevel()
     {
         if (sceneChanging) return;
         sceneChanging = true;
@@ -134,13 +130,13 @@ public class GameManager : MonoBehaviour
 
     public void AddScore(int value)
     {
-        this.score += value;
+        score += value;
         UpdateScore();
     }
 
     public void RemoveScore(int value)
     {
-        this.score -= value;
+        score -= value;
         UpdateScore();
     }
 
@@ -162,20 +158,6 @@ public class GameManager : MonoBehaviour
         else
         {
             Debug.Log("ScoreText reference is null. Cannot update score display.");
-        }
-    }
-
-    public void togglePause()
-    {
-        if (isGameRunning)
-        {
-            isGameRunning = false;
-            Time.timeScale = 0f;
-        }
-        else
-        {
-            isGameRunning = true;
-            Time.timeScale = 1f;
         }
     }
 }

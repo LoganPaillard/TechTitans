@@ -395,7 +395,7 @@ GameObject:
   - component: {fileID: 181043201}
   - component: {fileID: 181043202}
   - component: {fileID: 181043203}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Petal2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -494,7 +494,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 225423739}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: AutumnTimer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -673,7 +673,7 @@ GameObject:
   - component: {fileID: 380169418}
   - component: {fileID: 380169419}
   - component: {fileID: 380169420}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Petal6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1015,7 +1015,7 @@ GameObject:
   - component: {fileID: 424755463}
   - component: {fileID: 424755464}
   - component: {fileID: 424755465}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Petal5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1549,7 +1549,7 @@ GameObject:
   - component: {fileID: 525090515}
   - component: {fileID: 525090516}
   - component: {fileID: 525090517}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Petal1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1660,7 +1660,7 @@ GameObject:
   - component: {fileID: 579778302}
   - component: {fileID: 579778303}
   - component: {fileID: 579778304}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Petal5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1760,7 +1760,7 @@ GameObject:
   m_Component:
   - component: {fileID: 658010357}
   - component: {fileID: 658010358}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1847,7 +1847,7 @@ GameObject:
   m_Component:
   - component: {fileID: 673413801}
   - component: {fileID: 673413802}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Logo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1910,8 +1910,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 372384269
-  m_SortingLayer: 2
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -5637326398807626511, guid: 9d831c85e74fc904aad472fd5daea97d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1968,7 +1968,7 @@ GameObject:
   - component: {fileID: 766434806}
   - component: {fileID: 766434807}
   - component: {fileID: 766434808}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Petal3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2078,7 +2078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 861898991}
   - component: {fileID: 861898990}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TimerManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2101,7 +2101,7 @@ MonoBehaviour:
   summerTimer: {fileID: 1774544399}
   autumnTimer: {fileID: 225423738}
   dayNightController: {fileID: 1544952297}
-  timeLimit: 95
+  timeLimit: 30
   timerRoot: {fileID: 2065710878}
   timeUpMessage: {fileID: 1956399929}
 --- !u!4 &861898991
@@ -2137,7 +2137,7 @@ GameObject:
   - component: {fileID: 924619964}
   - component: {fileID: 924619965}
   - component: {fileID: 924619966}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Petal3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2511,7 +2511,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1023298128}
   - component: {fileID: 1023298129}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: centerFlower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2599,7 +2599,7 @@ GameObject:
   - component: {fileID: 1029826222}
   - component: {fileID: 1029826223}
   - component: {fileID: 1029826224}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Petal2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2699,7 +2699,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1123576312}
   - component: {fileID: 1123576313}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: centerFlower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2863,7 +2863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1320287163}
   - component: {fileID: 1320287164}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: centerFlower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2951,7 +2951,7 @@ GameObject:
   - component: {fileID: 1386160439}
   - component: {fileID: 1386160440}
   - component: {fileID: 1386160441}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Petal3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3050,7 +3050,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1454564916}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: SpringTimer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3090,7 +3090,7 @@ GameObject:
   - component: {fileID: 1489983508}
   - component: {fileID: 1489983509}
   - component: {fileID: 1489983510}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Petal5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3348,7 +3348,7 @@ GameObject:
   - component: {fileID: 1544952299}
   - component: {fileID: 1544952298}
   - component: {fileID: 1544952297}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Global Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3418,7 +3418,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 000000002532de180d2232169162ee85
+  m_ApplyToSortingLayers: 2532de180d2232169162ee8500000000
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -3524,7 +3524,7 @@ GameObject:
   - component: {fileID: 1562703611}
   - component: {fileID: 1562703612}
   - component: {fileID: 1562703613}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Petal1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3625,7 +3625,7 @@ GameObject:
   - component: {fileID: 1665949666}
   - component: {fileID: 1665949667}
   - component: {fileID: 1665949668}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Petal4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3726,7 +3726,7 @@ GameObject:
   - component: {fileID: 1693547541}
   - component: {fileID: 1693547542}
   - component: {fileID: 1693547543}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Petal6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3827,7 +3827,7 @@ GameObject:
   - component: {fileID: 1711536182}
   - component: {fileID: 1711536183}
   - component: {fileID: 1711536184}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Petal2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3926,7 +3926,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1774544400}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: SummerTimer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4138,13 +4138,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 17
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -4202,7 +4202,7 @@ GameObject:
   - component: {fileID: 1816536546}
   - component: {fileID: 1816536547}
   - component: {fileID: 1816536548}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Petal4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4303,7 +4303,7 @@ GameObject:
   - component: {fileID: 1842959180}
   - component: {fileID: 1842959181}
   - component: {fileID: 1842959182}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Petal6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4563,7 +4563,7 @@ GameObject:
   - component: {fileID: 1967770755}
   - component: {fileID: 1967770756}
   - component: {fileID: 1967770757}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Petal1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4664,7 +4664,7 @@ GameObject:
   - component: {fileID: 1982979565}
   - component: {fileID: 1982979566}
   - component: {fileID: 1982979567}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Petal4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4763,7 +4763,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2065710879}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Timers
   m_TagString: Untagged
   m_Icon: {fileID: 0}

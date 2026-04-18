@@ -15,7 +15,7 @@ public class EndScreen : MonoBehaviour
     private Dictionary<string, ItemScore> itemScores = new();
     private Dictionary<string, Star> stars = new();
     private float maxUpdateDuration = 3f;
-    private int scoreForStar = 700;
+    private int scoreForStar = 1500;
    
     private void Awake()
     {
